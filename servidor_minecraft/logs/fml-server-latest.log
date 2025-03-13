@@ -1,0 +1,992 @@
+[00:38:55] [main/DEBUG] [FML/]: Injecting tracing printstreams for STDOUT/STDERR.
+[00:38:55] [main/INFO] [FML/]: Forge Mod Loader version 7.99.40.1614 for Minecraft 1.7.10 loading
+[00:38:55] [main/INFO] [FML/]: Java is OpenJDK 64-Bit Server VM, version 1.8.0_442, running on Linux:amd64:6.8.0-1021-azure, installed at /usr/lib/jvm/java-8-openjdk-amd64/jre
+[00:38:55] [main/DEBUG] [FML/]: Java classpath at launch is /workspaces/yuca/servidor_minecraft/forge-1.7.10-10.13.4.1614-1.7.10-universal.jar
+[00:38:55] [main/DEBUG] [FML/]: Java library path at launch is /tmp/_MEIxvrQ0K:/usr/java/packages/lib/amd64:/usr/lib/x86_64-linux-gnu/jni:/lib/x86_64-linux-gnu:/usr/lib/x86_64-linux-gnu:/usr/lib/jni:/lib:/usr/lib
+[00:38:55] [main/DEBUG] [FML/]: Enabling runtime deobfuscation
+[00:38:55] [main/DEBUG] [FML/]: Instantiating coremod class FMLCorePlugin
+[00:38:55] [main/DEBUG] [FML/]: Added access transformer class cpw.mods.fml.common.asm.transformers.AccessTransformer to enqueued access transformers
+[00:38:55] [main/DEBUG] [FML/]: Enqueued coremod FMLCorePlugin
+[00:38:55] [main/DEBUG] [FML/]: Instantiating coremod class FMLForgePlugin
+[00:38:55] [main/DEBUG] [FML/]: Added access transformer class net.minecraftforge.transformers.ForgeAccessTransformer to enqueued access transformers
+[00:38:55] [main/DEBUG] [FML/]: Enqueued coremod FMLForgePlugin
+[00:38:55] [main/DEBUG] [FML/]: All fundamental core mods are successfully located
+[00:38:55] [main/DEBUG] [FML/]: Attempting to load commandline specified mods, relative to /workspaces/yuca/servidor_minecraft/.
+[00:38:55] [main/DEBUG] [FML/]: Discovering coremods
+[00:38:55] [main/DEBUG] [FML/]: Examining for coremod candidacy [1.7.10]DamageIndicatorsMod-3.3.2.jar
+[00:38:55] [main/DEBUG] [FML/]: Not found coremod data in [1.7.10]DamageIndicatorsMod-3.3.2.jar
+[00:38:55] [main/DEBUG] [FML/]: Examining for coremod candidacy AppleCore-mc1.7.10-3.1.1.jar
+[00:38:55] [main/TRACE] [FML/]: Found FMLCorePluginContainsFMLMod marker in AppleCore-mc1.7.10-3.1.1.jar, it will be examined later for regular @Mod instances
+[00:38:55] [main/DEBUG] [FML/]: Instantiating coremod class AppleCore
+[00:38:56] [main/DEBUG] [FML/]: The coremod squeek.applecore.AppleCore requested minecraft version 1.7.10 and minecraft is 1.7.10. It will be loaded.
+[00:38:56] [main/DEBUG] [FML/]: Enqueued coremod AppleCore
+[00:38:56] [main/DEBUG] [FML/]: Examining for coremod candidacy Chisel-2.9.5.11.jar
+[00:38:56] [main/DEBUG] [FML/]: Not found coremod data in Chisel-2.9.5.11.jar
+[00:38:56] [main/DEBUG] [FML/]: Examining for coremod candidacy CodeChickenCore-1.7.10-1.0.7.47-universal.jar
+[00:38:56] [main/TRACE] [FML/]: Adding CodeChickenCore-1.7.10-1.0.7.47-universal.jar to the list of known coremods, it will not be examined again
+[00:38:56] [main/DEBUG] [FML/]: Instantiating coremod class CodeChickenCorePlugin
+[00:38:56] [main/WARN] [FML/]: The coremod codechicken.core.launch.CodeChickenCorePlugin does not have a MCVersion annotation, it may cause issues with this version of Minecraft
+[00:38:56] [main/DEBUG] [FML/]: Added access transformer class codechicken.core.asm.CodeChickenAccessTransformer to enqueued access transformers
+[00:38:56] [main/DEBUG] [FML/]: Enqueued coremod CodeChickenCorePlugin
+[00:38:56] [main/DEBUG] [FML/]: Examining for coremod candidacy CodeChickenLib-1.7.10-1.1.3.138-universal.jar
+[00:38:56] [main/DEBUG] [FML/]: Not found coremod data in CodeChickenLib-1.7.10-1.1.3.138-universal.jar
+[00:38:56] [main/DEBUG] [FML/]: Examining for coremod candidacy CosmeticArmorReworked-1.7.10-v6b.jar
+[00:38:56] [main/DEBUG] [FML/]: Not found coremod data in CosmeticArmorReworked-1.7.10-v6b.jar
+[00:38:56] [main/DEBUG] [FML/]: Examining for coremod candidacy CraftTweaker-1.7.10-3.1.0-legacy.jar
+[00:38:56] [main/DEBUG] [FML/]: Not found coremod data in CraftTweaker-1.7.10-3.1.0-legacy.jar
+[00:38:56] [main/DEBUG] [FML/]: Examining for coremod candidacy CustomNPCs_1.7.10d(29oct17).jar
+[00:38:56] [main/DEBUG] [FML/]: Not found coremod data in CustomNPCs_1.7.10d(29oct17).jar
+[00:38:56] [main/DEBUG] [FML/]: Examining for coremod candidacy defaultkeys-mc1.7.10-1.0.28.jar
+[00:38:56] [main/TRACE] [FML/]: Found FMLCorePluginContainsFMLMod marker in defaultkeys-mc1.7.10-1.0.28.jar, it will be examined later for regular @Mod instances
+[00:38:56] [main/DEBUG] [FML/]: Instantiating coremod class DefaultOptionsLoadingPlugin
+[00:38:56] [main/TRACE] [FML/]: coremod named Default Keyconfig & Options is loading
+[00:38:56] [main/DEBUG] [FML/]: The coremod net.blay09.mods.defaultkeys.coremod.DefaultOptionsLoadingPlugin requested minecraft version 1.7.10 and minecraft is 1.7.10. It will be loaded.
+[00:38:56] [main/DEBUG] [FML/]: Enqueued coremod Default Keyconfig & Options
+[00:38:56] [main/DEBUG] [FML/]: Examining for coremod candidacy DragonBlockC-v1.4.70.jar
+[00:38:56] [main/DEBUG] [FML/]: Not found coremod data in DragonBlockC-v1.4.70.jar
+[00:38:56] [main/DEBUG] [FML/]: Examining for coremod candidacy FoodExpansion1.1.1-mc1.7.10.jar
+[00:38:56] [main/DEBUG] [FML/]: Not found coremod data in FoodExpansion1.1.1-mc1.7.10.jar
+[00:38:56] [main/DEBUG] [FML/]: Examining for coremod candidacy ironchest-1.7.10-6.0.62.742-universal.jar
+[00:38:56] [main/DEBUG] [FML/]: Not found coremod data in ironchest-1.7.10-6.0.62.742-universal.jar
+[00:38:56] [main/DEBUG] [FML/]: Examining for coremod candidacy JBRA-Client-v1.6.43.jar
+[00:38:56] [main/DEBUG] [FML/]: Not found coremod data in JBRA-Client-v1.6.43.jar
+[00:38:56] [main/DEBUG] [FML/]: Examining for coremod candidacy JFamilyC-v1.2.17.jar
+[00:38:56] [main/DEBUG] [FML/]: Not found coremod data in JFamilyC-v1.2.17.jar
+[00:38:56] [main/DEBUG] [FML/]: Examining for coremod candidacy JinRyuu's-HDSkins-Mod-1.7.10-v1.3.1.jar
+[00:38:56] [main/DEBUG] [FML/]: Not found coremod data in JinRyuu's-HDSkins-Mod-1.7.10-v1.3.1.jar
+[00:38:56] [main/DEBUG] [FML/]: Examining for coremod candidacy journeymap-1.7.10-5.1.4p2-unlimited.jar
+[00:38:56] [main/DEBUG] [FML/]: Not found coremod data in journeymap-1.7.10-5.1.4p2-unlimited.jar
+[00:38:56] [main/DEBUG] [FML/]: Examining for coremod candidacy JRMCore-v1.3.30.jar
+[00:38:56] [main/DEBUG] [FML/]: Not found coremod data in JRMCore-v1.3.30.jar
+[00:38:56] [main/DEBUG] [FML/]: Examining for coremod candidacy JYearsC-v1.2.5.jar
+[00:38:56] [main/DEBUG] [FML/]: Not found coremod data in JYearsC-v1.2.5.jar
+[00:38:56] [main/DEBUG] [FML/]: Examining for coremod candidacy kleeslabs-mc1.7.10-1.2.9.jar
+[00:38:56] [main/DEBUG] [FML/]: Not found coremod data in kleeslabs-mc1.7.10-1.2.9.jar
+[00:38:56] [main/DEBUG] [FML/]: Examining for coremod candidacy ModTweaker2-0.9.6.jar
+[00:38:56] [main/DEBUG] [FML/]: Not found coremod data in ModTweaker2-0.9.6.jar
+[00:38:56] [main/DEBUG] [FML/]: Examining for coremod candidacy Morpheus-1.7.10-1.6.21.jar
+[00:38:56] [main/DEBUG] [FML/]: Not found coremod data in Morpheus-1.7.10-1.6.21.jar
+[00:38:56] [main/DEBUG] [FML/]: Examining for coremod candidacy MouseTweaks-2.4.4-mc1.7.10.jar
+[00:38:56] [main/DEBUG] [FML/]: Not found coremod data in MouseTweaks-2.4.4-mc1.7.10.jar
+[00:38:56] [main/DEBUG] [FML/]: Examining for coremod candidacy NotEnoughItems-1.7.10-1.0.5.120-universal.jar
+[00:38:56] [main/TRACE] [FML/]: Adding NotEnoughItems-1.7.10-1.0.5.120-universal.jar to the list of known coremods, it will not be examined again
+[00:38:56] [main/DEBUG] [FML/]: Instantiating coremod class NEICorePlugin
+[00:38:56] [main/WARN] [FML/]: The coremod codechicken.nei.asm.NEICorePlugin does not have a MCVersion annotation, it may cause issues with this version of Minecraft
+[00:38:56] [main/DEBUG] [FML/]: Enqueued coremod NEICorePlugin
+[00:38:56] [main/DEBUG] [FML/]: Examining for coremod candidacy OptiFine_1.7.10_HD_U_E7.jar
+[00:38:56] [main/INFO] [FML/]: Loading tweaker optifine.OptiFineForgeTweaker from OptiFine_1.7.10_HD_U_E7.jar
+[00:38:56] [main/DEBUG] [FML/]: Examining for coremod candidacy OreExcavation-1.1.134.jar
+[00:38:56] [main/DEBUG] [FML/]: Not found coremod data in OreExcavation-1.1.134.jar
+[00:38:56] [main/DEBUG] [FML/]: Examining for coremod candidacy ResourceLoader-MC1.7.10-1.3.jar
+[00:38:56] [main/TRACE] [FML/]: Found FMLCorePluginContainsFMLMod marker in ResourceLoader-MC1.7.10-1.3.jar, it will be examined later for regular @Mod instances
+[00:38:56] [main/DEBUG] [FML/]: Instantiating coremod class LoadingPlugin
+[00:38:56] [main/WARN] [FML/]: The coremod lumien.resourceloader.asm.LoadingPlugin does not have a MCVersion annotation, it may cause issues with this version of Minecraft
+[00:38:56] [main/DEBUG] [FML/]: Enqueued coremod LoadingPlugin
+[00:38:56] [main/DEBUG] [FML/]: Examining for coremod candidacy SwordArtOnlineC-v0.0.5.jar
+[00:38:56] [main/DEBUG] [FML/]: Not found coremod data in SwordArtOnlineC-v0.0.5.jar
+[00:38:56] [main/INFO] [LaunchWrapper/]: Loading tweak class name cpw.mods.fml.common.launcher.FMLInjectionAndSortingTweaker
+[00:38:56] [main/INFO] [LaunchWrapper/]: Loading tweak class name optifine.OptiFineForgeTweaker
+[00:38:56] [main/INFO] [LaunchWrapper/]: Loading tweak class name cpw.mods.fml.common.launcher.FMLDeobfTweaker
+[00:38:56] [main/INFO] [LaunchWrapper/]: Calling tweak class cpw.mods.fml.common.launcher.FMLInjectionAndSortingTweaker
+[00:38:56] [main/INFO] [LaunchWrapper/]: Calling tweak class cpw.mods.fml.common.launcher.FMLInjectionAndSortingTweaker
+[00:38:56] [main/INFO] [LaunchWrapper/]: Calling tweak class optifine.OptiFineForgeTweaker
+[00:38:56] [main/INFO] [STDOUT/]: [optifine.OptiFineForgeTweaker:dbg:56]: OptiFineForgeTweaker: acceptOptions
+[00:38:56] [main/INFO] [STDOUT/]: [optifine.OptiFineForgeTweaker:dbg:56]: OptiFineForgeTweaker: Forge server detected, skipping class transformer
+[00:38:56] [main/INFO] [LaunchWrapper/]: Calling tweak class cpw.mods.fml.relauncher.CoreModManager$FMLPluginWrapper
+[00:38:56] [main/DEBUG] [FML/]: Injecting coremod FMLCorePlugin {cpw.mods.fml.relauncher.FMLCorePlugin} class transformers
+[00:38:56] [main/TRACE] [FML/]: Registering transformer cpw.mods.fml.common.asm.transformers.MarkerTransformer
+[00:38:56] [main/TRACE] [FML/]: Registering transformer cpw.mods.fml.common.asm.transformers.SideTransformer
+[00:38:56] [main/TRACE] [FML/]: Registering transformer cpw.mods.fml.common.asm.transformers.EventSubscriptionTransformer
+[00:38:56] [main/DEBUG] [FML/]: Injection complete
+[00:38:56] [main/DEBUG] [FML/]: Running coremod plugin for FMLCorePlugin {cpw.mods.fml.relauncher.FMLCorePlugin}
+[00:38:56] [main/DEBUG] [FML/]: Running coremod plugin FMLCorePlugin
+[00:38:57] [main/DEBUG] [FML/]: Read 527 binary patches
+[00:38:57] [main/ERROR] [FML/]: FML appears to be missing any signature data. This is not a good thing
+[00:38:57] [main/DEBUG] [FML/]: Coremod plugin class FMLCorePlugin run successfully
+[00:38:57] [main/INFO] [LaunchWrapper/]: Calling tweak class cpw.mods.fml.relauncher.CoreModManager$FMLPluginWrapper
+[00:38:57] [main/DEBUG] [FML/]: Injecting coremod FMLForgePlugin {net.minecraftforge.classloading.FMLForgePlugin} class transformers
+[00:38:57] [main/TRACE] [FML/]: Registering transformer net.minecraftforge.classloading.FluidIdTransformer
+[00:38:57] [main/DEBUG] [FML/]: Injection complete
+[00:38:57] [main/DEBUG] [FML/]: Running coremod plugin for FMLForgePlugin {net.minecraftforge.classloading.FMLForgePlugin}
+[00:38:57] [main/DEBUG] [FML/]: Running coremod plugin FMLForgePlugin
+[00:38:57] [main/DEBUG] [FML/]: Coremod plugin class FMLForgePlugin run successfully
+[00:38:57] [main/INFO] [LaunchWrapper/]: Calling tweak class cpw.mods.fml.relauncher.CoreModManager$FMLPluginWrapper
+[00:38:57] [main/DEBUG] [FML/]: Injecting coremod CCCDeobfPlugin {codechicken.core.asm.MCPDeobfuscationTransformer$LoadPlugin} class transformers
+[00:38:57] [main/DEBUG] [FML/]: Injection complete
+[00:38:57] [main/DEBUG] [FML/]: Running coremod plugin for CCCDeobfPlugin {codechicken.core.asm.MCPDeobfuscationTransformer$LoadPlugin}
+[00:38:57] [main/DEBUG] [FML/]: Running coremod plugin CCCDeobfPlugin
+[00:38:57] [main/DEBUG] [FML/]: Coremod plugin class LoadPlugin run successfully
+[00:38:57] [main/INFO] [LaunchWrapper/]: Calling tweak class cpw.mods.fml.relauncher.CoreModManager$FMLPluginWrapper
+[00:38:57] [main/DEBUG] [FML/]: Injecting coremod CodeChickenCorePlugin {codechicken.core.launch.CodeChickenCorePlugin} class transformers
+[00:38:57] [main/TRACE] [FML/]: Registering transformer codechicken.lib.asm.ClassHeirachyManager
+[00:38:57] [main/TRACE] [FML/]: Registering transformer codechicken.core.asm.InterfaceDependancyTransformer
+[00:38:57] [main/TRACE] [FML/]: Registering transformer codechicken.core.asm.TweakTransformer
+[00:38:57] [main/TRACE] [FML/]: Registering transformer codechicken.core.asm.DelegatedTransformer
+[00:38:57] [main/TRACE] [FML/]: Registering transformer codechicken.core.asm.DefaultImplementationTransformer
+[00:38:57] [main/DEBUG] [FML/]: Injection complete
+[00:38:57] [main/DEBUG] [FML/]: Running coremod plugin for CodeChickenCorePlugin {codechicken.core.launch.CodeChickenCorePlugin}
+[00:38:57] [main/DEBUG] [FML/]: Running coremod plugin CodeChickenCorePlugin
+[00:38:57] [main/DEBUG] [FML/]: Coremod plugin class CodeChickenCorePlugin run successfully
+[00:38:57] [main/INFO] [LaunchWrapper/]: Calling tweak class cpw.mods.fml.relauncher.CoreModManager$FMLPluginWrapper
+[00:38:57] [main/DEBUG] [FML/]: Injecting coremod NEICorePlugin {codechicken.nei.asm.NEICorePlugin} class transformers
+[00:38:57] [main/TRACE] [FML/]: Registering transformer codechicken.nei.asm.NEITransformer
+[00:38:57] [main/DEBUG] [FML/]: Injection complete
+[00:38:57] [main/DEBUG] [FML/]: Running coremod plugin for NEICorePlugin {codechicken.nei.asm.NEICorePlugin}
+[00:38:57] [main/DEBUG] [FML/]: Running coremod plugin NEICorePlugin
+[00:38:57] [main/DEBUG] [FML/]: Coremod plugin class NEICorePlugin run successfully
+[00:38:57] [main/INFO] [LaunchWrapper/]: Calling tweak class cpw.mods.fml.common.launcher.FMLDeobfTweaker
+[00:38:57] [main/DEBUG] [FML/]: Loaded 57 rules from AccessTransformer config file fml_at.cfg
+[00:38:57] [main/DEBUG] [FML/]: Loaded 89 rules from AccessTransformer config file forge_at.cfg
+[00:38:57] [main/DEBUG] [FML/]: Loaded 57 rules from AccessTransformer config file fml_at.cfg
+[00:38:57] [main/DEBUG] [FML/]: Loaded 4 rules from AccessTransformer mod jar file /workspaces/yuca/servidor_minecraft/mods/Chisel-2.9.5.11.jar!META-INF/chisel_compile_at.cfg
+
+[00:38:57] [main/DEBUG] [FML/]: Loaded 11 rules from AccessTransformer mod jar file /workspaces/yuca/servidor_minecraft/mods/NotEnoughItems-1.7.10-1.0.5.120-universal.jar!META-INF/nei_at.cfg
+
+[00:38:57] [main/DEBUG] [FML/]: Loaded 1 rules from AccessTransformer mod jar file /workspaces/yuca/servidor_minecraft/mods/defaultkeys-mc1.7.10-1.0.28.jar!META-INF/defaultkeys_at.cfg
+
+[00:38:57] [main/DEBUG] [FML/]: Loaded 1 rules from AccessTransformer mod jar file /workspaces/yuca/servidor_minecraft/mods/ResourceLoader-MC1.7.10-1.3.jar!META-INF/ResourceLoader_At.cfg
+
+[00:38:57] [main/DEBUG] [FML/]: Validating minecraft
+[00:38:57] [main/DEBUG] [FML/]: Minecraft validated, launching...
+[00:38:57] [main/INFO] [LaunchWrapper/]: Calling tweak class cpw.mods.fml.relauncher.CoreModManager$FMLPluginWrapper
+[00:38:57] [main/DEBUG] [FML/]: Injecting coremod Default Keyconfig & Options {net.blay09.mods.defaultkeys.coremod.DefaultOptionsLoadingPlugin} class transformers
+[00:38:57] [main/TRACE] [FML/]: Registering transformer net.blay09.mods.defaultkeys.coremod.DefaultOptionsClassTransformer
+[00:38:57] [main/DEBUG] [FML/]: Injection complete
+[00:38:57] [main/DEBUG] [FML/]: Running coremod plugin for Default Keyconfig & Options {net.blay09.mods.defaultkeys.coremod.DefaultOptionsLoadingPlugin}
+[00:38:57] [main/DEBUG] [FML/]: Running coremod plugin Default Keyconfig & Options
+[00:38:57] [main/DEBUG] [FML/]: Coremod plugin class DefaultOptionsLoadingPlugin run successfully
+[00:38:57] [main/INFO] [LaunchWrapper/]: Calling tweak class cpw.mods.fml.relauncher.CoreModManager$FMLPluginWrapper
+[00:38:57] [main/DEBUG] [FML/]: Injecting coremod LoadingPlugin {lumien.resourceloader.asm.LoadingPlugin} class transformers
+[00:38:57] [main/TRACE] [FML/]: Registering transformer lumien.resourceloader.asm.ClassTransformer
+[00:38:57] [main/DEBUG] [FML/]: Injection complete
+[00:38:57] [main/DEBUG] [FML/]: Running coremod plugin for LoadingPlugin {lumien.resourceloader.asm.LoadingPlugin}
+[00:38:57] [main/DEBUG] [FML/]: Running coremod plugin LoadingPlugin
+[00:38:57] [main/DEBUG] [FML/]: Coremod plugin class LoadingPlugin run successfully
+[00:38:57] [main/INFO] [LaunchWrapper/]: Calling tweak class cpw.mods.fml.relauncher.CoreModManager$FMLPluginWrapper
+[00:38:57] [main/DEBUG] [FML/]: Injecting coremod AppleCore {squeek.applecore.AppleCore} class transformers
+[00:38:57] [main/TRACE] [FML/]: Registering transformer squeek.applecore.asm.TransformerModuleHandler
+[00:38:57] [main/DEBUG] [FML/]: Injection complete
+[00:38:57] [main/DEBUG] [FML/]: Running coremod plugin for AppleCore {squeek.applecore.AppleCore}
+[00:38:57] [main/DEBUG] [FML/]: Running coremod plugin AppleCore
+[00:38:57] [main/DEBUG] [FML/]: Coremod plugin class AppleCore run successfully
+[00:38:57] [main/INFO] [LaunchWrapper/]: Loading tweak class name cpw.mods.fml.common.launcher.TerminalTweaker
+[00:38:57] [main/INFO] [LaunchWrapper/]: Calling tweak class cpw.mods.fml.common.launcher.TerminalTweaker
+[00:38:57] [main/INFO] [STDOUT/]: [optifine.OptiFineForgeTweaker:dbg:56]: OptiFineForgeTweaker: getLaunchArguments
+[00:38:57] [main/INFO] [LaunchWrapper/]: Launching wrapped minecraft {net.minecraft.server.MinecraftServer}
+[00:38:57] [main/DEBUG] [CCL ASM/]: Writing method [aji.canBeReplacedByLeaves(Lahl;III)Z]
+[00:38:58] [main/DEBUG] [CCL ASM/]: Injecting before method [dh.toString()Ljava/lang/String;] @ 51 - 55
+[00:38:58] [main/DEBUG] [CCL ASM/]: Injecting before method [dq.toString()Ljava/lang/String;] @ 56 - 60
+[00:38:59] [Server thread/INFO] [MinecraftForge/]: Attempting early MinecraftForge initialization
+[00:38:59] [Server thread/INFO] [FML/]: MinecraftForge v10.13.4.1614 Initialized
+[00:38:59] [Server thread/INFO] [FML/]: Replaced 183 ore recipies
+[00:38:59] [Server thread/INFO] [MinecraftForge/]: Completed early MinecraftForge initialization
+[00:38:59] [Server thread/DEBUG] [FML/]: File /workspaces/yuca/servidor_minecraft/config/injectedDependencies.json not found. No dependencies injected
+[00:38:59] [Server thread/DEBUG] [FML/]: Building injected Mod Containers [cpw.mods.fml.common.FMLContainer, net.minecraftforge.common.ForgeModContainer, codechicken.core.asm.CodeChickenCoreModContainer, codechicken.nei.NEIModContainer]
+[00:38:59] [Server thread/DEBUG] [FML/]: Attempting to load mods contained in the minecraft jar file and associated classes
+[00:38:59] [Server thread/DEBUG] [FML/]: Found a minecraft related file at /workspaces/yuca/servidor_minecraft/forge-1.7.10-10.13.4.1614-1.7.10-universal.jar, examining for mod candidates
+[00:38:59] [Server thread/TRACE] [FML/]: Skipping known library file /workspaces/yuca/servidor_minecraft/mods/AppleCore-mc1.7.10-3.1.1.jar
+[00:38:59] [Server thread/TRACE] [FML/]: Skipping known library file /workspaces/yuca/servidor_minecraft/mods/CodeChickenCore-1.7.10-1.0.7.47-universal.jar
+[00:38:59] [Server thread/DEBUG] [FML/]: Found a minecraft related file at /workspaces/yuca/servidor_minecraft/./mods/1.7.10/CodeChickenLib-1.7.10-1.1.3.138-universal.jar, examining for mod candidates
+[00:38:59] [Server thread/TRACE] [FML/]: Skipping known library file /workspaces/yuca/servidor_minecraft/mods/defaultkeys-mc1.7.10-1.0.28.jar
+[00:38:59] [Server thread/TRACE] [FML/]: Skipping known library file /workspaces/yuca/servidor_minecraft/mods/NotEnoughItems-1.7.10-1.0.5.120-universal.jar
+[00:38:59] [Server thread/TRACE] [FML/]: Skipping known library file /workspaces/yuca/servidor_minecraft/mods/OptiFine_1.7.10_HD_U_E7.jar
+[00:38:59] [Server thread/TRACE] [FML/]: Skipping known library file /workspaces/yuca/servidor_minecraft/mods/ResourceLoader-MC1.7.10-1.3.jar
+[00:38:59] [Server thread/DEBUG] [FML/]: Minecraft jar mods loaded successfully
+[00:38:59] [Server thread/INFO] [FML/]: Found 0 mods from the command line. Injecting into mod discoverer
+[00:38:59] [Server thread/INFO] [FML/]: Searching /workspaces/yuca/servidor_minecraft/mods for mods
+[00:38:59] [Server thread/DEBUG] [FML/]: Found a candidate mod directory 1.7.10
+[00:38:59] [Server thread/DEBUG] [FML/]: Found a candidate zip or jar file [1.7.10]DamageIndicatorsMod-3.3.2.jar
+[00:38:59] [Server thread/DEBUG] [FML/]: Found a candidate zip or jar file AppleCore-mc1.7.10-3.1.1.jar
+[00:38:59] [Server thread/DEBUG] [FML/]: Found a candidate zip or jar file Chisel-2.9.5.11.jar
+[00:38:59] [Server thread/TRACE] [FML/]: Skipping already parsed coremod or tweaker CodeChickenCore-1.7.10-1.0.7.47-universal.jar
+[00:38:59] [Server thread/DEBUG] [FML/]: Found a candidate zip or jar file CosmeticArmorReworked-1.7.10-v6b.jar
+[00:38:59] [Server thread/DEBUG] [FML/]: Found a candidate zip or jar file CraftTweaker-1.7.10-3.1.0-legacy.jar
+[00:38:59] [Server thread/DEBUG] [FML/]: Found a candidate zip or jar file CustomNPCs_1.7.10d(29oct17).jar
+[00:38:59] [Server thread/DEBUG] [FML/]: Found a candidate zip or jar file defaultkeys-mc1.7.10-1.0.28.jar
+[00:38:59] [Server thread/DEBUG] [FML/]: Found a candidate zip or jar file DragonBlockC-v1.4.70.jar
+[00:38:59] [Server thread/DEBUG] [FML/]: Found a candidate zip or jar file FoodExpansion1.1.1-mc1.7.10.jar
+[00:38:59] [Server thread/DEBUG] [FML/]: Found a candidate zip or jar file ironchest-1.7.10-6.0.62.742-universal.jar
+[00:38:59] [Server thread/DEBUG] [FML/]: Found a candidate zip or jar file JBRA-Client-v1.6.43.jar
+[00:38:59] [Server thread/DEBUG] [FML/]: Found a candidate zip or jar file JFamilyC-v1.2.17.jar
+[00:38:59] [Server thread/DEBUG] [FML/]: Found a candidate zip or jar file JinRyuu's-HDSkins-Mod-1.7.10-v1.3.1.jar
+[00:38:59] [Server thread/DEBUG] [FML/]: Found a candidate zip or jar file journeymap-1.7.10-5.1.4p2-unlimited.jar
+[00:38:59] [Server thread/DEBUG] [FML/]: Found a candidate zip or jar file JRMCore-v1.3.30.jar
+[00:38:59] [Server thread/DEBUG] [FML/]: Found a candidate zip or jar file JYearsC-v1.2.5.jar
+[00:38:59] [Server thread/DEBUG] [FML/]: Found a candidate zip or jar file kleeslabs-mc1.7.10-1.2.9.jar
+[00:38:59] [Server thread/DEBUG] [FML/]: Found a candidate zip or jar file ModTweaker2-0.9.6.jar
+[00:38:59] [Server thread/DEBUG] [FML/]: Found a candidate zip or jar file Morpheus-1.7.10-1.6.21.jar
+[00:38:59] [Server thread/DEBUG] [FML/]: Found a candidate zip or jar file MouseTweaks-2.4.4-mc1.7.10.jar
+[00:38:59] [Server thread/TRACE] [FML/]: Skipping already parsed coremod or tweaker NotEnoughItems-1.7.10-1.0.5.120-universal.jar
+[00:38:59] [Server thread/TRACE] [FML/]: Skipping already parsed coremod or tweaker OptiFine_1.7.10_HD_U_E7.jar
+[00:38:59] [Server thread/DEBUG] [FML/]: Found a candidate zip or jar file OreExcavation-1.1.134.jar
+[00:38:59] [Server thread/DEBUG] [FML/]: Found a candidate zip or jar file ResourceLoader-MC1.7.10-1.3.jar
+[00:38:59] [Server thread/DEBUG] [FML/]: Found a candidate zip or jar file SwordArtOnlineC-v0.0.5.jar
+[00:38:59] [Server thread/INFO] [FML/]: Also searching /workspaces/yuca/servidor_minecraft/mods/1.7.10 for mods
+[00:38:59] [Server thread/DEBUG] [FML/]: Found a candidate zip or jar file CodeChickenLib-1.7.10-1.1.3.138-universal.jar
+[00:38:59] [Server thread/DEBUG] [FML/]: Examining file forge-1.7.10-10.13.4.1614-1.7.10-universal.jar for potential mods
+[00:38:59] [Server thread/DEBUG] [FML/]: The mod container forge-1.7.10-10.13.4.1614-1.7.10-universal.jar appears to be missing an mcmod.info file
+[00:38:59] [Server thread/DEBUG] [FML/]: Examining file CodeChickenLib-1.7.10-1.1.3.138-universal.jar for potential mods
+[00:38:59] [Server thread/DEBUG] [FML/]: The mod container CodeChickenLib-1.7.10-1.1.3.138-universal.jar appears to be missing an mcmod.info file
+[00:38:59] [Server thread/DEBUG] [FML/]: Examining directory 1.7.10 for potential mods
+[00:38:59] [Server thread/DEBUG] [FML/]: No mcmod.info file found in directory 1.7.10
+[00:38:59] [Server thread/DEBUG] [FML/]: Examining file [1.7.10]DamageIndicatorsMod-3.3.2.jar for potential mods
+[00:38:59] [Server thread/TRACE] [FML/]: Located mcmod.info file in file [1.7.10]DamageIndicatorsMod-3.3.2.jar
+[00:38:59] [Server thread/DEBUG] [FML/]: Identified a mod of type Lcpw/mods/fml/common/Mod; (DamageIndicatorsMod.DIMod) - loading
+[00:38:59] [Server thread/TRACE] [DamageIndicatorsMod/]: Parsed dependency info : [] [] []
+[00:38:59] [Server thread/DEBUG] [DamageIndicatorsMod/]: Attempting to load the file version.properties from [1.7.10]DamageIndicatorsMod-3.3.2.jar to locate a version number for DamageIndicatorsMod
+[00:38:59] [Server thread/WARN] [DamageIndicatorsMod/]: Mod DamageIndicatorsMod is missing the required element 'version' and a version.properties file could not be found. Falling back to metadata version 3.3.2
+[00:38:59] [Server thread/DEBUG] [FML/]: Examining file AppleCore-mc1.7.10-3.1.1.jar for potential mods
+[00:38:59] [Server thread/DEBUG] [FML/]: The mod container AppleCore-mc1.7.10-3.1.1.jar appears to be missing an mcmod.info file
+[00:38:59] [Server thread/DEBUG] [FML/]: Identified a mod of type Lcpw/mods/fml/common/Mod; (squeek.applecore.AppleCore) - loading
+[00:38:59] [Server thread/TRACE] [AppleCore/]: Parsed dependency info : [] [] []
+[00:38:59] [Server thread/INFO] [AppleCore/]: Mod AppleCore is missing the required element 'name'. Substituting AppleCore
+[00:38:59] [Server thread/DEBUG] [FML/]: Examining file Chisel-2.9.5.11.jar for potential mods
+[00:38:59] [Server thread/TRACE] [FML/]: Located mcmod.info file in file Chisel-2.9.5.11.jar
+[00:38:59] [Server thread/DEBUG] [FML/]: Identified a mod of type Lcpw/mods/fml/common/Mod; (team.chisel.Chisel) - loading
+[00:38:59] [Server thread/TRACE] [chisel/]: Parsed dependency info : [] [EE3, ForgeMultipart, Thaumcraft, appliedenergistics2, Railcraft, AWWayofTime, TwilightForest] []
+[00:38:59] [Server thread/DEBUG] [FML/]: Examining file CosmeticArmorReworked-1.7.10-v6b.jar for potential mods
+[00:38:59] [Server thread/TRACE] [FML/]: Located mcmod.info file in file CosmeticArmorReworked-1.7.10-v6b.jar
+[00:38:59] [Server thread/DEBUG] [FML/]: Identified a mod of type Lcpw/mods/fml/common/Mod; (lain.mods.cos.CosmeticArmorReworked) - loading
+[00:38:59] [Server thread/TRACE] [cosmeticarmorreworked/]: Using mcmod dependency info : [Forge] [] []
+[00:38:59] [Server thread/DEBUG] [cosmeticarmorreworked/]: Attempting to load the file version.properties from CosmeticArmorReworked-1.7.10-v6b.jar to locate a version number for cosmeticarmorreworked
+[00:38:59] [Server thread/WARN] [cosmeticarmorreworked/]: Mod cosmeticarmorreworked is missing the required element 'version' and a version.properties file could not be found. Falling back to metadata version 1.7.10-v6b
+[00:38:59] [Server thread/DEBUG] [FML/]: Examining file CraftTweaker-1.7.10-3.1.0-legacy.jar for potential mods
+[00:38:59] [Server thread/TRACE] [FML/]: Located mcmod.info file in file CraftTweaker-1.7.10-3.1.0-legacy.jar
+[00:38:59] [Server thread/DEBUG] [FML/]: Identified a mod of type Lcpw/mods/fml/common/Mod; (minetweaker.mc1710.MineTweakerMod) - loading
+[00:38:59] [Server thread/TRACE] [MineTweaker3/]: Parsed dependency info : [] [] []
+[00:38:59] [Server thread/DEBUG] [FML/]: Examining file CustomNPCs_1.7.10d(29oct17).jar for potential mods
+[00:38:59] [Server thread/TRACE] [FML/]: Located mcmod.info file in file CustomNPCs_1.7.10d(29oct17).jar
+[00:38:59] [Server thread/DEBUG] [FML/]: Identified a mod of type Lcpw/mods/fml/common/Mod; (noppes.npcs.CustomNpcs) - loading
+[00:38:59] [Server thread/TRACE] [customnpcs/]: Parsed dependency info : [] [] []
+[00:39:00] [Server thread/DEBUG] [FML/]: Examining file defaultkeys-mc1.7.10-1.0.28.jar for potential mods
+[00:39:00] [Server thread/TRACE] [FML/]: Located mcmod.info file in file defaultkeys-mc1.7.10-1.0.28.jar
+[00:39:00] [Server thread/DEBUG] [FML/]: Identified a mod of type Lcpw/mods/fml/common/Mod; (net.blay09.mods.defaultkeys.DefaultKeys) - loading
+[00:39:00] [Server thread/TRACE] [defaultkeys/]: Parsed dependency info : [] [] []
+[00:39:00] [Server thread/DEBUG] [defaultkeys/]: Attempting to load the file version.properties from defaultkeys-mc1.7.10-1.0.28.jar to locate a version number for defaultkeys
+[00:39:00] [Server thread/WARN] [defaultkeys/]: Mod defaultkeys is missing the required element 'version' and a version.properties file could not be found. Falling back to metadata version 1.0.28
+[00:39:00] [Server thread/DEBUG] [FML/]: Examining file DragonBlockC-v1.4.70.jar for potential mods
+[00:39:00] [Server thread/DEBUG] [FML/]: The mod container DragonBlockC-v1.4.70.jar appears to be missing an mcmod.info file
+[00:39:00] [Server thread/DEBUG] [FML/]: Identified a class JinRyuu.DragonBC.common.mod_DragonBC following modloader naming convention but not directly a BaseMod or currently seen subclass
+[00:39:00] [Server thread/DEBUG] [FML/]: Identified a mod of type Lcpw/mods/fml/common/Mod; (JinRyuu.DragonBC.common.mod_DragonBC) - loading
+[00:39:00] [Server thread/TRACE] [jinryuudragonblockc/]: Parsed dependency info : [jinryuujrmcore] [jinryuujrmcore] []
+[00:39:00] [Server thread/INFO] [FML/]: Attempting to reparse the mod container DragonBlockC-v1.4.70.jar
+[00:39:00] [Server thread/DEBUG] [FML/]: Examining file DragonBlockC-v1.4.70.jar for potential mods
+[00:39:00] [Server thread/DEBUG] [FML/]: The mod container DragonBlockC-v1.4.70.jar appears to be missing an mcmod.info file
+[00:39:00] [Server thread/DEBUG] [FML/]: Identified a class JinRyuu.DragonBC.common.mod_DragonBC following modloader naming convention but not directly a BaseMod or currently seen subclass
+[00:39:00] [Server thread/DEBUG] [FML/]: Identified a mod of type Lcpw/mods/fml/common/Mod; (JinRyuu.DragonBC.common.mod_DragonBC) - loading
+[00:39:00] [Server thread/TRACE] [jinryuudragonblockc/]: Parsed dependency info : [jinryuujrmcore] [jinryuujrmcore] []
+[00:39:00] [Server thread/DEBUG] [FML/]: Examining file FoodExpansion1.1.1-mc1.7.10.jar for potential mods
+[00:39:00] [Server thread/TRACE] [FML/]: Located mcmod.info file in file FoodExpansion1.1.1-mc1.7.10.jar
+[00:39:00] [Server thread/DEBUG] [FML/]: Identified a mod of type Lcpw/mods/fml/common/Mod; (lellson.foodexpansion.FoodExpansion) - loading
+[00:39:00] [Server thread/TRACE] [FoodExpansion/]: Parsed dependency info : [] [] []
+[00:39:00] [Server thread/DEBUG] [FML/]: Examining file ironchest-1.7.10-6.0.62.742-universal.jar for potential mods
+[00:39:00] [Server thread/TRACE] [FML/]: Located mcmod.info file in file ironchest-1.7.10-6.0.62.742-universal.jar
+[00:39:00] [Server thread/DEBUG] [FML/]: Identified a mod of type Lcpw/mods/fml/common/Mod; (cpw.mods.ironchest.IronChest) - loading
+[00:39:00] [Server thread/TRACE] [IronChest/]: Parsed dependency info : [Forge@[10.10,), FML@[7.2,)] [Forge@[10.10,), FML@[7.2,)] []
+[00:39:00] [Server thread/DEBUG] [IronChest/]: Attempting to load the file version.properties from ironchest-1.7.10-6.0.62.742-universal.jar to locate a version number for IronChest
+[00:39:00] [Server thread/DEBUG] [IronChest/]: Found version 6.0.62.742 for mod IronChest in version.properties, using
+[00:39:00] [Server thread/DEBUG] [FML/]: Examining file JBRA-Client-v1.6.43.jar for potential mods
+[00:39:00] [Server thread/DEBUG] [FML/]: The mod container JBRA-Client-v1.6.43.jar appears to be missing an mcmod.info file
+[00:39:00] [Server thread/DEBUG] [FML/]: Identified a class JinRyuu.JBRA.mod_JBRA following modloader naming convention but not directly a BaseMod or currently seen subclass
+[00:39:00] [Server thread/DEBUG] [FML/]: Identified a mod of type Lcpw/mods/fml/common/Mod; (JinRyuu.JBRA.mod_JBRA) - loading
+[00:39:00] [Server thread/TRACE] [jinryuubetterrenderaddon/]: Parsed dependency info : [jinryuujrmcore] [jinryuujrmcore, optifine, OptiFine] []
+[00:39:00] [Server thread/INFO] [FML/]: Attempting to reparse the mod container JBRA-Client-v1.6.43.jar
+[00:39:00] [Server thread/DEBUG] [FML/]: Examining file JBRA-Client-v1.6.43.jar for potential mods
+[00:39:00] [Server thread/DEBUG] [FML/]: The mod container JBRA-Client-v1.6.43.jar appears to be missing an mcmod.info file
+[00:39:00] [Server thread/DEBUG] [FML/]: Identified a class JinRyuu.JBRA.mod_JBRA following modloader naming convention but not directly a BaseMod or currently seen subclass
+[00:39:00] [Server thread/DEBUG] [FML/]: Identified a mod of type Lcpw/mods/fml/common/Mod; (JinRyuu.JBRA.mod_JBRA) - loading
+[00:39:00] [Server thread/TRACE] [jinryuubetterrenderaddon/]: Parsed dependency info : [jinryuujrmcore] [jinryuujrmcore, optifine, OptiFine] []
+[00:39:00] [Server thread/DEBUG] [FML/]: Examining file JFamilyC-v1.2.17.jar for potential mods
+[00:39:00] [Server thread/DEBUG] [FML/]: The mod container JFamilyC-v1.2.17.jar appears to be missing an mcmod.info file
+[00:39:00] [Server thread/DEBUG] [FML/]: Identified a class JinRyuu.FamilyC.mod_FamilyC following modloader naming convention but not directly a BaseMod or currently seen subclass
+[00:39:00] [Server thread/DEBUG] [FML/]: Identified a mod of type Lcpw/mods/fml/common/Mod; (JinRyuu.FamilyC.mod_FamilyC) - loading
+[00:39:00] [Server thread/TRACE] [jinryuufamilyc/]: Parsed dependency info : [jinryuujrmcore] [jinryuujrmcore] []
+[00:39:00] [Server thread/INFO] [FML/]: Attempting to reparse the mod container JFamilyC-v1.2.17.jar
+[00:39:00] [Server thread/DEBUG] [FML/]: Examining file JFamilyC-v1.2.17.jar for potential mods
+[00:39:00] [Server thread/DEBUG] [FML/]: The mod container JFamilyC-v1.2.17.jar appears to be missing an mcmod.info file
+[00:39:00] [Server thread/DEBUG] [FML/]: Identified a class JinRyuu.FamilyC.mod_FamilyC following modloader naming convention but not directly a BaseMod or currently seen subclass
+[00:39:00] [Server thread/DEBUG] [FML/]: Identified a mod of type Lcpw/mods/fml/common/Mod; (JinRyuu.FamilyC.mod_FamilyC) - loading
+[00:39:00] [Server thread/TRACE] [jinryuufamilyc/]: Parsed dependency info : [jinryuujrmcore] [jinryuujrmcore] []
+[00:39:00] [Server thread/DEBUG] [FML/]: Examining file JinRyuu's-HDSkins-Mod-1.7.10-v1.3.1.jar for potential mods
+[00:39:00] [Server thread/DEBUG] [FML/]: The mod container JinRyuu's-HDSkins-Mod-1.7.10-v1.3.1.jar appears to be missing an mcmod.info file
+[00:39:00] [Server thread/DEBUG] [FML/]: Identified a mod of type Lcpw/mods/fml/common/Mod; (JinRyuu.JHDSkins.e.JHDSkinsExtender) - loading
+[00:39:00] [Server thread/TRACE] [jinryuuhdskinsextended/]: Parsed dependency info : [] [] []
+[00:39:00] [Server thread/DEBUG] [FML/]: Examining file journeymap-1.7.10-5.1.4p2-unlimited.jar for potential mods
+[00:39:00] [Server thread/TRACE] [FML/]: Located mcmod.info file in file journeymap-1.7.10-5.1.4p2-unlimited.jar
+[00:39:00] [Server thread/DEBUG] [FML/]: Identified a mod of type Lcpw/mods/fml/common/Mod; (journeymap.common.Journeymap) - loading
+[00:39:00] [Server thread/TRACE] [journeymap/]: Using mcmod dependency info : [Forge@[10.13.4.1558,)] [Forge@[10.13.4.1558,)] []
+[00:39:00] [Server thread/DEBUG] [FML/]: Examining file JRMCore-v1.3.30.jar for potential mods
+[00:39:00] [Server thread/DEBUG] [FML/]: The mod container JRMCore-v1.3.30.jar appears to be missing an mcmod.info file
+[00:39:00] [Server thread/DEBUG] [FML/]: Identified a class JinRyuu.JRMCore.mod_JRMCore following modloader naming convention but not directly a BaseMod or currently seen subclass
+[00:39:00] [Server thread/DEBUG] [FML/]: Identified a mod of type Lcpw/mods/fml/common/Mod; (JinRyuu.JRMCore.mod_JRMCore) - loading
+[00:39:00] [Server thread/TRACE] [jinryuujrmcore/]: Parsed dependency info : [] [] []
+[00:39:00] [Server thread/INFO] [FML/]: Attempting to reparse the mod container JRMCore-v1.3.30.jar
+[00:39:00] [Server thread/DEBUG] [FML/]: Examining file JRMCore-v1.3.30.jar for potential mods
+[00:39:00] [Server thread/DEBUG] [FML/]: The mod container JRMCore-v1.3.30.jar appears to be missing an mcmod.info file
+[00:39:00] [Server thread/DEBUG] [FML/]: Identified a class JinRyuu.JRMCore.mod_JRMCore following modloader naming convention but not directly a BaseMod or currently seen subclass
+[00:39:00] [Server thread/DEBUG] [FML/]: Identified a mod of type Lcpw/mods/fml/common/Mod; (JinRyuu.JRMCore.mod_JRMCore) - loading
+[00:39:00] [Server thread/TRACE] [jinryuujrmcore/]: Parsed dependency info : [] [] []
+[00:39:00] [Server thread/DEBUG] [FML/]: Examining file JYearsC-v1.2.5.jar for potential mods
+[00:39:00] [Server thread/DEBUG] [FML/]: The mod container JYearsC-v1.2.5.jar appears to be missing an mcmod.info file
+[00:39:00] [Server thread/DEBUG] [FML/]: Identified a class JinRyuu.JYearsC.mod_JYearsC following modloader naming convention but not directly a BaseMod or currently seen subclass
+[00:39:00] [Server thread/DEBUG] [FML/]: Identified a mod of type Lcpw/mods/fml/common/Mod; (JinRyuu.JYearsC.mod_JYearsC) - loading
+[00:39:00] [Server thread/TRACE] [jinryuuyearsc/]: Parsed dependency info : [jinryuujrmcore] [jinryuujrmcore] []
+[00:39:00] [Server thread/INFO] [FML/]: Attempting to reparse the mod container JYearsC-v1.2.5.jar
+[00:39:00] [Server thread/DEBUG] [FML/]: Examining file JYearsC-v1.2.5.jar for potential mods
+[00:39:00] [Server thread/DEBUG] [FML/]: The mod container JYearsC-v1.2.5.jar appears to be missing an mcmod.info file
+[00:39:00] [Server thread/DEBUG] [FML/]: Identified a class JinRyuu.JYearsC.mod_JYearsC following modloader naming convention but not directly a BaseMod or currently seen subclass
+[00:39:00] [Server thread/DEBUG] [FML/]: Identified a mod of type Lcpw/mods/fml/common/Mod; (JinRyuu.JYearsC.mod_JYearsC) - loading
+[00:39:00] [Server thread/TRACE] [jinryuuyearsc/]: Parsed dependency info : [jinryuujrmcore] [jinryuujrmcore] []
+[00:39:00] [Server thread/DEBUG] [FML/]: Examining file kleeslabs-mc1.7.10-1.2.9.jar for potential mods
+[00:39:00] [Server thread/TRACE] [FML/]: Located mcmod.info file in file kleeslabs-mc1.7.10-1.2.9.jar
+[00:39:00] [Server thread/DEBUG] [FML/]: Identified a mod of type Lcpw/mods/fml/common/Mod; (net.blay09.mods.kleetho.Kleetho) - loading
+[00:39:00] [Server thread/TRACE] [kleeslabs/]: Parsed dependency info : [] [] []
+[00:39:00] [Server thread/DEBUG] [kleeslabs/]: Attempting to load the file version.properties from kleeslabs-mc1.7.10-1.2.9.jar to locate a version number for kleeslabs
+[00:39:00] [Server thread/WARN] [kleeslabs/]: Mod kleeslabs is missing the required element 'version' and no fallback can be found. Substituting '1.0'.
+[00:39:00] [Server thread/DEBUG] [FML/]: Examining file ModTweaker2-0.9.6.jar for potential mods
+[00:39:00] [Server thread/TRACE] [FML/]: Located mcmod.info file in file ModTweaker2-0.9.6.jar
+[00:39:00] [Server thread/DEBUG] [FML/]: Identified a mod of type Lcpw/mods/fml/common/Mod; (modtweaker2.ModTweaker2) - loading
+[00:39:00] [Server thread/TRACE] [modtweaker2/]: Parsed dependency info : [MineTweaker3] [MineTweaker3, Forestry@[4.1.0,)] []
+[00:39:00] [Server thread/DEBUG] [FML/]: Examining file Morpheus-1.7.10-1.6.21.jar for potential mods
+[00:39:00] [Server thread/TRACE] [FML/]: Located mcmod.info file in file Morpheus-1.7.10-1.6.21.jar
+[00:39:00] [Server thread/DEBUG] [FML/]: Identified a mod of type Lcpw/mods/fml/common/Mod; (net.quetzi.morpheus.Morpheus) - loading
+[00:39:00] [Server thread/TRACE] [Morpheus/]: Parsed dependency info : [] [] []
+[00:39:00] [Server thread/DEBUG] [FML/]: Examining file MouseTweaks-2.4.4-mc1.7.10.jar for potential mods
+[00:39:00] [Server thread/TRACE] [FML/]: Located mcmod.info file in file MouseTweaks-2.4.4-mc1.7.10.jar
+[00:39:00] [Server thread/DEBUG] [FML/]: Identified a mod of type Lcpw/mods/fml/common/Mod; (yalter.mousetweaks.loaders.MouseTweaksForge) - loading
+[00:39:00] [Server thread/TRACE] [MouseTweaks/]: Parsed dependency info : [] [] []
+[00:39:00] [Server thread/DEBUG] [FML/]: Examining file OreExcavation-1.1.134.jar for potential mods
+[00:39:00] [Server thread/TRACE] [FML/]: Located mcmod.info file in file OreExcavation-1.1.134.jar
+[00:39:00] [Server thread/DEBUG] [FML/]: Identified a mod of type Lcpw/mods/fml/common/Mod; (oreexcavation.core.OreExcavation) - loading
+[00:39:00] [Server thread/TRACE] [oreexcavation/]: Parsed dependency info : [] [] []
+[00:39:00] [Server thread/DEBUG] [oreexcavation/]: Attempting to load the file version.properties from OreExcavation-1.1.134.jar to locate a version number for oreexcavation
+[00:39:00] [Server thread/WARN] [oreexcavation/]: Mod oreexcavation is missing the required element 'version' and a version.properties file could not be found. Falling back to metadata version 1.1.134
+[00:39:00] [Server thread/DEBUG] [FML/]: Examining file ResourceLoader-MC1.7.10-1.3.jar for potential mods
+[00:39:00] [Server thread/TRACE] [FML/]: Located mcmod.info file in file ResourceLoader-MC1.7.10-1.3.jar
+[00:39:00] [Server thread/DEBUG] [FML/]: Identified a mod of type Lcpw/mods/fml/common/Mod; (lumien.resourceloader.ResourceLoader) - loading
+[00:39:00] [Server thread/TRACE] [ResourceLoader/]: Parsed dependency info : [] [] []
+[00:39:00] [Server thread/DEBUG] [FML/]: Examining file SwordArtOnlineC-v0.0.5.jar for potential mods
+[00:39:00] [Server thread/DEBUG] [FML/]: The mod container SwordArtOnlineC-v0.0.5.jar appears to be missing an mcmod.info file
+[00:39:00] [Server thread/DEBUG] [FML/]: Identified a mod of type Lcpw/mods/fml/common/Mod; (com.jin_ryuu.SwordArtC.Main) - loading
+[00:39:00] [Server thread/TRACE] [jinryuusaoc/]: Parsed dependency info : [jinryuujrmcore] [jinryuujrmcore] []
+[00:39:00] [Server thread/DEBUG] [FML/]: Examining file CodeChickenLib-1.7.10-1.1.3.138-universal.jar for potential mods
+[00:39:00] [Server thread/DEBUG] [FML/]: The mod container CodeChickenLib-1.7.10-1.1.3.138-universal.jar appears to be missing an mcmod.info file
+[00:39:00] [Server thread/INFO] [FML/]: Forge Mod Loader has identified 28 mods to load
+[00:39:00] [Server thread/DEBUG] [FML/]: Found API squeek.applecore.api (owned by AppleCore providing AppleCoreAPI) embedded in AppleCore
+[00:39:00] [Server thread/DEBUG] [FML/]: Found API com.cricketcraft.chisel.api.rendering (owned by Chisel providing ChiselAPI|Rendering) embedded in chisel
+[00:39:00] [Server thread/DEBUG] [FML/]: Found API com.cricketcraft.chisel.api (owned by chisel providing ChiselAPI) embedded in chisel
+[00:39:00] [Server thread/DEBUG] [FML/]: Found API com.cricketcraft.chisel.api.carving (owned by Chisel providing ChiselAPI|Carving) embedded in chisel
+[00:39:00] [Server thread/DEBUG] [FML/]: Creating API container dummy for API AppleCoreAPI: owner: AppleCore, dependents: []
+[00:39:00] [Server thread/DEBUG] [FML/]: Creating API container dummy for API ChiselAPI|Carving: owner: Chisel, dependents: [chisel]
+[00:39:00] [Server thread/DEBUG] [FML/]: Creating API container dummy for API ChiselAPI: owner: chisel, dependents: []
+[00:39:00] [Server thread/DEBUG] [FML/]: Creating API container dummy for API ChiselAPI|Rendering: owner: Chisel, dependents: [chisel]
+[00:39:00] [Server thread/TRACE] [FML/]: Received a system property request ''
+[00:39:00] [Server thread/TRACE] [FML/]: System property request managing the state of 0 mods
+[00:39:00] [Server thread/DEBUG] [FML/]: After merging, found state information for 0 mods
+[00:39:00] [Server thread/DEBUG] [FML/]: Found translations in forge-1.7.10-10.13.4.1614-1.7.10-universal.jar [en_US, en_US, es_ES, fr_FR, ru_RU, de_DE, af_ZA, ar_SA, br_FR, ca_ES, cs_CZ, da_DK, el_GR, fa_IR, fi_FI, he_IL, hu_HU, it_IT, ja_JP, ko_KR, lt_LT, nb_NO, nl_NL, nn_NO, no_NO, pl_PL, pt_BR, pt_PT, ro_RO, sl_SI, sr_SP, sv_SE, tr_TR, uk_UA, vi_VN, zh_CN, zh_TW]
+[00:39:00] [Server thread/DEBUG] [FML/]: Found translations in forge-1.7.10-10.13.4.1614-1.7.10-universal.jar [en_US, en_US, es_ES, fr_FR, ru_RU, de_DE, af_ZA, ar_SA, br_FR, ca_ES, cs_CZ, da_DK, el_GR, fa_IR, fi_FI, he_IL, hu_HU, it_IT, ja_JP, ko_KR, lt_LT, nb_NO, nl_NL, nn_NO, no_NO, pl_PL, pt_BR, pt_PT, ro_RO, sl_SI, sr_SP, sv_SE, tr_TR, uk_UA, vi_VN, zh_CN, zh_TW]
+[00:39:00] [Server thread/DEBUG] [FML/]: Found translations in NotEnoughItems-1.7.10-1.0.5.120-universal.jar [cs_CZ, fr_FR, et_EE, zh_CN, it_IT, zh_TW, de_DE, tr_TR, ru_RU, pt_BR, sk_SK, ko_KR, pl_PL, en_US]
+[00:39:00] [Server thread/DEBUG] [DamageIndicatorsMod/]: Enabling mod DamageIndicatorsMod
+[00:39:00] [Server thread/DEBUG] [FML/]: Found translations in [1.7.10]DamageIndicatorsMod-3.3.2.jar [en_US]
+[00:39:00] [Server thread/DEBUG] [AppleCore/]: Enabling mod AppleCore
+[00:39:00] [Server thread/DEBUG] [FML/]: Found translations in AppleCore-mc1.7.10-3.1.1.jar [de_DE, en_US, pl_PL, ru_RU, zh_CN, zh_TW]
+[00:39:00] [Server thread/DEBUG] [chisel/]: Enabling mod chisel
+[00:39:00] [Server thread/DEBUG] [FML/]: Found translations in Chisel-2.9.5.11.jar [ru_RU, en_GB, ko_KR, de_DE, fr_FR, en_PT, en_US, zh_CN]
+[00:39:00] [Server thread/DEBUG] [cosmeticarmorreworked/]: Enabling mod cosmeticarmorreworked
+[00:39:00] [Server thread/DEBUG] [FML/]: Found translations in CosmeticArmorReworked-1.7.10-v6b.jar [en_US, zh_CN]
+[00:39:00] [Server thread/DEBUG] [MineTweaker3/]: Enabling mod MineTweaker3
+[00:39:00] [Server thread/DEBUG] [customnpcs/]: Enabling mod customnpcs
+[00:39:00] [Server thread/DEBUG] [FML/]: Found translations in CustomNPCs_1.7.10d(29oct17).jar [cs_CZ, de_DE, en_US, es_AR, es_MX, fr_FR, hu_HU, id_ID, ko_KR, nl_NL, pl_PL, pt_BR, ru_RU, sv_SE, zh_CN, zh_TW]
+[00:39:00] [Server thread/DEBUG] [defaultkeys/]: Enabling mod defaultkeys
+[00:39:00] [Server thread/DEBUG] [jinryuudragonblockc/]: Enabling mod jinryuudragonblockc
+[00:39:00] [Server thread/DEBUG] [FML/]: Found translations in DragonBlockC-v1.4.70.jar [ar_SA, da_DK, de_DE, el_GR, en_US, es_ES, fr_FR, he_IL, hu_HU, it_IT, pl_PL, pt_PT, zh_CN]
+[00:39:00] [Server thread/DEBUG] [FoodExpansion/]: Enabling mod FoodExpansion
+[00:39:00] [Server thread/DEBUG] [FML/]: Found translations in FoodExpansion1.1.1-mc1.7.10.jar [en_US]
+[00:39:00] [Server thread/DEBUG] [IronChest/]: Enabling mod IronChest
+[00:39:00] [Server thread/DEBUG] [FML/]: Found translations in ironchest-1.7.10-6.0.62.742-universal.jar [sv_SE, pl_PL, da_DK, en_US, et_EE, cs_CZ, pt_BR, en_PT, tr_TR, es_ES, fr_FR, ru_RU, nb_NO, el_GR, de_DE, zh_TW, it_IT, ko_KR, pt_PT, zh_CN, nl_NL]
+[00:39:00] [Server thread/DEBUG] [jinryuubetterrenderaddon/]: Enabling mod jinryuubetterrenderaddon
+[00:39:00] [Server thread/DEBUG] [jinryuufamilyc/]: Enabling mod jinryuufamilyc
+[00:39:00] [Server thread/DEBUG] [jinryuuhdskinsextended/]: Enabling mod jinryuuhdskinsextended
+[00:39:00] [Server thread/DEBUG] [journeymap/]: Enabling mod journeymap
+[00:39:00] [Server thread/DEBUG] [FML/]: Found translations in journeymap-1.7.10-5.1.4p2-unlimited.jar [de_DE, ar_SA, ca_ES, en_US, es_ES, fi_FI, fr_CA, fr_FR, hu_HU, ja_JP, ko_KR, nl_NL, no_NO, pt_BR, ru_RU, sv_SE, zh_CN]
+[00:39:00] [Server thread/DEBUG] [jinryuujrmcore/]: Enabling mod jinryuujrmcore
+[00:39:00] [Server thread/DEBUG] [FML/]: Found translations in JRMCore-v1.3.30.jar [en_US, es_ES, fr_FR, hu_HU, pt_PT, zh_CN]
+[00:39:00] [Server thread/DEBUG] [jinryuuyearsc/]: Enabling mod jinryuuyearsc
+[00:39:00] [Server thread/DEBUG] [FML/]: Found translations in JYearsC-v1.2.5.jar [en_US]
+[00:39:00] [Server thread/DEBUG] [kleeslabs/]: Enabling mod kleeslabs
+[00:39:00] [Server thread/DEBUG] [modtweaker2/]: Enabling mod modtweaker2
+[00:39:00] [Server thread/DEBUG] [Morpheus/]: Enabling mod Morpheus
+[00:39:00] [Server thread/DEBUG] [MouseTweaks/]: Enabling mod MouseTweaks
+[00:39:00] [Server thread/DEBUG] [oreexcavation/]: Enabling mod oreexcavation
+[00:39:00] [Server thread/DEBUG] [FML/]: Found translations in OreExcavation-1.1.134.jar [de_DE, en_US, ru_RU, zh_CN, zh_TW]
+[00:39:00] [Server thread/DEBUG] [ResourceLoader/]: Enabling mod ResourceLoader
+[00:39:00] [Server thread/DEBUG] [jinryuusaoc/]: Enabling mod jinryuusaoc
+[00:39:01] [Server thread/DEBUG] [FML/]: Found translations in SwordArtOnlineC-v0.0.5.jar [en_US, es_ES, fr_FR]
+[00:39:01] [Server thread/TRACE] [FML/]: Verifying mod requirements are satisfied
+[00:39:01] [Server thread/TRACE] [FML/]: All mod requirements are satisfied
+[00:39:01] [Server thread/TRACE] [FML/]: Sorting mods into an ordered list
+[00:39:01] [Server thread/TRACE] [FML/]: Mod sorting completed successfully
+[00:39:01] [Server thread/DEBUG] [FML/]: Mod sorting data
+[00:39:01] [Server thread/DEBUG] [FML/]: 	DamageIndicatorsMod(Damage Indicators:3.3.2): [1.7.10]DamageIndicatorsMod-3.3.2.jar ()
+[00:39:01] [Server thread/DEBUG] [FML/]: 	AppleCore(AppleCore:3.1.1): AppleCore-mc1.7.10-3.1.1.jar ()
+[00:39:01] [Server thread/DEBUG] [FML/]: 	ChiselAPI|Carving(API: ChiselAPI|Carving:0.1.1): Chisel-2.9.5.11.jar ()
+[00:39:01] [Server thread/DEBUG] [FML/]: 	ChiselAPI|Rendering(API: ChiselAPI|Rendering:0.1.1): Chisel-2.9.5.11.jar ()
+[00:39:01] [Server thread/DEBUG] [FML/]: 	chisel(Chisel:2.9.5.11): Chisel-2.9.5.11.jar (after:EE3;after:ForgeMultipart;after:Thaumcraft;after:appliedenergistics2;after:Railcraft;after:AWWayofTime;after:TwilightForest)
+[00:39:01] [Server thread/DEBUG] [FML/]: 	cosmeticarmorreworked(CosmeticArmorReworked:1.7.10-v6b): CosmeticArmorReworked-1.7.10-v6b.jar ()
+[00:39:01] [Server thread/DEBUG] [FML/]: 	MineTweaker3(MineTweaker 3:3.1.0): CraftTweaker-1.7.10-3.1.0-legacy.jar ()
+[00:39:01] [Server thread/DEBUG] [FML/]: 	customnpcs(CustomNpcs:1.7.10d): CustomNPCs_1.7.10d(29oct17).jar ()
+[00:39:01] [Server thread/DEBUG] [FML/]: 	defaultkeys(Default Keyconfig:1.0.28): defaultkeys-mc1.7.10-1.0.28.jar ()
+[00:39:01] [Server thread/DEBUG] [FML/]: 	jinryuujrmcore(JinRyuu's JRMCore:1.3.30): JRMCore-v1.3.30.jar ()
+[00:39:01] [Server thread/DEBUG] [FML/]: 	jinryuudragonblockc(Dragon Block C:1.4.70): DragonBlockC-v1.4.70.jar (required-after:jinryuujrmcore)
+[00:39:01] [Server thread/DEBUG] [FML/]: 	FoodExpansion(Food Expansion:1.0): FoodExpansion1.1.1-mc1.7.10.jar ()
+[00:39:01] [Server thread/DEBUG] [FML/]: 	IronChest(Iron Chest:6.0.62.742): ironchest-1.7.10-6.0.62.742-universal.jar (required-after:Forge@[10.10,);required-after:FML@[7.2,))
+[00:39:01] [Server thread/DEBUG] [FML/]: 	jinryuubetterrenderaddon(JinRyuu's Better Render Addon:1.6.43): JBRA-Client-v1.6.43.jar (required-after:jinryuujrmcore;after:optifine;after:OptiFine)
+[00:39:01] [Server thread/DEBUG] [FML/]: 	jinryuufamilyc(JinRyuu's Family C:1.2.17): JFamilyC-v1.2.17.jar (required-after:jinryuujrmcore)
+[00:39:01] [Server thread/DEBUG] [FML/]: 	jinryuuhdskinsextended(JinRyuu's HD Skins Extended:1.3.1): JinRyuu's-HDSkins-Mod-1.7.10-v1.3.1.jar ()
+[00:39:01] [Server thread/DEBUG] [FML/]: 	journeymap(JourneyMap:5.1.4p2): journeymap-1.7.10-5.1.4p2-unlimited.jar ()
+[00:39:01] [Server thread/DEBUG] [FML/]: 	jinryuuyearsc(JinRyuu's Years C:1.2.5): JYearsC-v1.2.5.jar (required-after:jinryuujrmcore)
+[00:39:01] [Server thread/DEBUG] [FML/]: 	kleeslabs(KleeSlabs:1.0): kleeslabs-mc1.7.10-1.2.9.jar ()
+[00:39:01] [Server thread/DEBUG] [FML/]: 	modtweaker2(Mod Tweaker 2:0.9.6): ModTweaker2-0.9.6.jar (required-after:MineTweaker3;after:Forestry@[4.1.0,);)
+[00:39:01] [Server thread/DEBUG] [FML/]: 	Morpheus(Morpheus:1.7.10-1.6.21): Morpheus-1.7.10-1.6.21.jar ()
+[00:39:01] [Server thread/DEBUG] [FML/]: 	MouseTweaks(Mouse Tweaks:2.4.4): MouseTweaks-2.4.4-mc1.7.10.jar ()
+[00:39:01] [Server thread/DEBUG] [FML/]: 	oreexcavation(OreExcavation:1.1.134): OreExcavation-1.1.134.jar ()
+[00:39:01] [Server thread/DEBUG] [FML/]: 	ResourceLoader(Resource Loader:1.3): ResourceLoader-MC1.7.10-1.3.jar ()
+[00:39:01] [Server thread/DEBUG] [FML/]: 	jinryuusaoc(Sword Art Online C:0.0.5): SwordArtOnlineC-v0.0.5.jar (required-after:jinryuujrmcore)
+[00:39:01] [Server thread/DEBUG] [FML/]: 	AppleCoreAPI(API: AppleCoreAPI:3.1.0): AppleCore-mc1.7.10-3.1.1.jar ()
+[00:39:01] [Server thread/DEBUG] [FML/]: 	ChiselAPI(API: ChiselAPI:0.1.1): Chisel-2.9.5.11.jar ()
+[00:39:01] [Server thread/INFO] [FML/]: FML has found a non-mod file CodeChickenLib-1.7.10-1.1.3.138-universal.jar in your mods directory. It will now be injected into your classpath. This could severe stability issues, it should be removed if possible.
+[00:39:01] [Server thread/TRACE] [mcp/mcp]: Sending event FMLConstructionEvent to mod mcp
+[00:39:01] [Server thread/TRACE] [mcp/mcp]: Sent event FMLConstructionEvent to mod mcp
+[00:39:01] [Server thread/DEBUG] [FML/]: Bar Step: Construction - Minecraft Coder Pack took 0.001s
+[00:39:01] [Server thread/TRACE] [FML/FML]: Sending event FMLConstructionEvent to mod FML
+[00:39:01] [Server thread/TRACE] [FML/FML]: Mod FML is using network checker : Invoking method checkModLists
+[00:39:01] [Server thread/TRACE] [FML/FML]: Testing mod FML to verify it accepts its own version in a remote connection
+[00:39:01] [Server thread/TRACE] [FML/FML]: The mod FML accepts its own version (7.10.99.99)
+[00:39:01] [Server thread/INFO] [FML/FML]: Attempting connection with missing mods [mcp, FML, Forge, CodeChickenCore, NotEnoughItems, DamageIndicatorsMod, AppleCore, chisel, cosmeticarmorreworked, MineTweaker3, customnpcs, defaultkeys, jinryuudragonblockc, FoodExpansion, IronChest, jinryuubetterrenderaddon, jinryuufamilyc, jinryuuhdskinsextended, journeymap, jinryuujrmcore, jinryuuyearsc, kleeslabs, modtweaker2, Morpheus, MouseTweaks, oreexcavation, ResourceLoader, jinryuusaoc] at CLIENT
+[00:39:01] [Server thread/INFO] [FML/FML]: Attempting connection with missing mods [mcp, FML, Forge, CodeChickenCore, NotEnoughItems, DamageIndicatorsMod, AppleCore, chisel, cosmeticarmorreworked, MineTweaker3, customnpcs, defaultkeys, jinryuudragonblockc, FoodExpansion, IronChest, jinryuubetterrenderaddon, jinryuufamilyc, jinryuuhdskinsextended, journeymap, jinryuujrmcore, jinryuuyearsc, kleeslabs, modtweaker2, Morpheus, MouseTweaks, oreexcavation, ResourceLoader, jinryuusaoc] at SERVER
+[00:39:01] [Server thread/TRACE] [FML/FML]: Sent event FMLConstructionEvent to mod FML
+[00:39:01] [Server thread/DEBUG] [FML/]: Bar Step: Construction - Forge Mod Loader took 0.235s
+[00:39:01] [Server thread/TRACE] [Forge/Forge]: Sending event FMLConstructionEvent to mod Forge
+[00:39:01] [Server thread/TRACE] [FML/Forge]: Mod Forge is using network checker : No network checking performed
+[00:39:01] [Server thread/TRACE] [FML/Forge]: Testing mod Forge to verify it accepts its own version in a remote connection
+[00:39:01] [Server thread/TRACE] [FML/Forge]: The mod Forge accepts its own version (10.13.4.1614)
+[00:39:01] [Server thread/TRACE] [Forge/Forge]: Sent event FMLConstructionEvent to mod Forge
+[00:39:01] [Server thread/DEBUG] [FML/]: Bar Step: Construction - Minecraft Forge took 0.005s
+[00:39:01] [Server thread/TRACE] [CodeChickenCore/CodeChickenCore]: Sending event FMLConstructionEvent to mod CodeChickenCore
+[00:39:01] [Server thread/TRACE] [CodeChickenCore/CodeChickenCore]: Sent event FMLConstructionEvent to mod CodeChickenCore
+[00:39:01] [Server thread/DEBUG] [FML/]: Bar Step: Construction - CodeChicken Core took 0.001s
+[00:39:01] [Server thread/TRACE] [NotEnoughItems/NotEnoughItems]: Sending event FMLConstructionEvent to mod NotEnoughItems
+[00:39:01] [Server thread/TRACE] [NotEnoughItems/NotEnoughItems]: Sent event FMLConstructionEvent to mod NotEnoughItems
+[00:39:01] [Server thread/DEBUG] [FML/]: Bar Step: Construction - Not Enough Items took 0.001s
+[00:39:01] [Server thread/TRACE] [DamageIndicatorsMod/DamageIndicatorsMod]: Sending event FMLConstructionEvent to mod DamageIndicatorsMod
+[00:39:01] [Server thread/TRACE] [FML/DamageIndicatorsMod]: Mod DamageIndicatorsMod is using network checker : No network checking performed
+[00:39:01] [Server thread/TRACE] [FML/DamageIndicatorsMod]: Testing mod DamageIndicatorsMod to verify it accepts its own version in a remote connection
+[00:39:01] [Server thread/TRACE] [FML/DamageIndicatorsMod]: The mod DamageIndicatorsMod accepts its own version (3.3.2)
+[00:39:01] [Server thread/DEBUG] [FML/DamageIndicatorsMod]: Attempting to inject @SidedProxy classes into DamageIndicatorsMod
+[00:39:01] [Server thread/TRACE] [DamageIndicatorsMod/DamageIndicatorsMod]: Sent event FMLConstructionEvent to mod DamageIndicatorsMod
+[00:39:01] [Server thread/DEBUG] [FML/]: Bar Step: Construction - Damage Indicators took 0.014s
+[00:39:01] [Server thread/TRACE] [AppleCore/AppleCore]: Sending event FMLConstructionEvent to mod AppleCore
+[00:39:01] [Server thread/TRACE] [FML/AppleCore]: Mod AppleCore is using network checker : No network checking performed
+[00:39:01] [Server thread/TRACE] [FML/AppleCore]: Testing mod AppleCore to verify it accepts its own version in a remote connection
+[00:39:01] [Server thread/TRACE] [FML/AppleCore]: The mod AppleCore accepts its own version (3.1.1)
+[00:39:01] [Server thread/DEBUG] [FML/AppleCore]: Attempting to inject @SidedProxy classes into AppleCore
+[00:39:01] [Server thread/TRACE] [AppleCore/AppleCore]: Sent event FMLConstructionEvent to mod AppleCore
+[00:39:01] [Server thread/DEBUG] [FML/]: Bar Step: Construction - AppleCore took 0.001s
+[00:39:01] [Server thread/TRACE] [chisel/chisel]: Sending event FMLConstructionEvent to mod chisel
+[00:39:01] [Server thread/TRACE] [FML/chisel]: Mod chisel is using network checker : Accepting version 2.9.5.11
+[00:39:01] [Server thread/TRACE] [FML/chisel]: Testing mod chisel to verify it accepts its own version in a remote connection
+[00:39:01] [Server thread/TRACE] [FML/chisel]: The mod chisel accepts its own version (2.9.5.11)
+[00:39:01] [Server thread/DEBUG] [FML/chisel]: Attempting to inject @SidedProxy classes into chisel
+[00:39:01] [Server thread/TRACE] [chisel/chisel]: Sent event FMLConstructionEvent to mod chisel
+[00:39:01] [Server thread/DEBUG] [FML/]: Bar Step: Construction - Chisel took 0.029s
+[00:39:01] [Server thread/TRACE] [cosmeticarmorreworked/cosmeticarmorreworked]: Sending event FMLConstructionEvent to mod cosmeticarmorreworked
+[00:39:01] [Server thread/TRACE] [FML/cosmeticarmorreworked]: Mod cosmeticarmorreworked is using network checker : Accepting version 1.7.10-v6b
+[00:39:01] [Server thread/TRACE] [FML/cosmeticarmorreworked]: Testing mod cosmeticarmorreworked to verify it accepts its own version in a remote connection
+[00:39:01] [Server thread/TRACE] [FML/cosmeticarmorreworked]: The mod cosmeticarmorreworked accepts its own version (1.7.10-v6b)
+[00:39:01] [Server thread/DEBUG] [FML/cosmeticarmorreworked]: Attempting to inject @SidedProxy classes into cosmeticarmorreworked
+[00:39:01] [Server thread/TRACE] [cosmeticarmorreworked/cosmeticarmorreworked]: Sent event FMLConstructionEvent to mod cosmeticarmorreworked
+[00:39:01] [Server thread/DEBUG] [FML/]: Bar Step: Construction - CosmeticArmorReworked took 0.011s
+[00:39:01] [Server thread/TRACE] [MineTweaker3/MineTweaker3]: Sending event FMLConstructionEvent to mod MineTweaker3
+[00:39:01] [Server thread/INFO] [STDERR/MineTweaker3]: [java.lang.Throwable$WrappedPrintStream:println:749]: java.lang.RuntimeException: ZenSetter must have exactly one parameter - minetweaker.api.vanilla.ILootFunction.setName
+[00:39:01] [Server thread/INFO] [STDERR/MineTweaker3]: [java.lang.Throwable$WrappedPrintStream:println:749]: 	at stanhebben.zenscript.type.ZenTypeNative.checkSetter(ZenTypeNative.java:351)
+[00:39:01] [Server thread/INFO] [STDERR/MineTweaker3]: [java.lang.Throwable$WrappedPrintStream:println:749]: 	at stanhebben.zenscript.type.ZenTypeNative.complete(ZenTypeNative.java:148)
+[00:39:01] [Server thread/INFO] [STDERR/MineTweaker3]: [java.lang.Throwable$WrappedPrintStream:println:749]: 	at minetweaker.runtime.GlobalRegistry.registerNativeClass(GlobalRegistry.java:92)
+[00:39:01] [Server thread/INFO] [STDERR/MineTweaker3]: [java.lang.Throwable$WrappedPrintStream:println:749]: 	at minetweaker.MineTweakerAPI.registerClass(MineTweakerAPI.java:340)
+[00:39:01] [Server thread/INFO] [STDERR/MineTweaker3]: [java.lang.Throwable$WrappedPrintStream:println:749]: 	at minetweaker.MineTweakerAPI.registerClassRegistry(MineTweakerAPI.java:281)
+[00:39:01] [Server thread/INFO] [STDERR/MineTweaker3]: [java.lang.Throwable$WrappedPrintStream:println:749]: 	at minetweaker.MineTweakerAPI.<clinit>(MineTweakerAPI.java:75)
+[00:39:01] [Server thread/INFO] [STDERR/MineTweaker3]: [java.lang.Throwable$WrappedPrintStream:println:749]: 	at minetweaker.MineTweakerImplementationAPI.init(MineTweakerImplementationAPI.java:561)
+[00:39:01] [Server thread/INFO] [STDERR/MineTweaker3]: [java.lang.Throwable$WrappedPrintStream:println:749]: 	at minetweaker.mc1710.MineTweakerMod.<init>(MineTweakerMod.java:85)
+[00:39:01] [Server thread/INFO] [STDERR/MineTweaker3]: [java.lang.Throwable$WrappedPrintStream:println:749]: 	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+[00:39:01] [Server thread/INFO] [STDERR/MineTweaker3]: [java.lang.Throwable$WrappedPrintStream:println:749]: 	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+[00:39:01] [Server thread/INFO] [STDERR/MineTweaker3]: [java.lang.Throwable$WrappedPrintStream:println:749]: 	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+[00:39:01] [Server thread/INFO] [STDERR/MineTweaker3]: [java.lang.Throwable$WrappedPrintStream:println:749]: 	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+[00:39:01] [Server thread/INFO] [STDERR/MineTweaker3]: [java.lang.Throwable$WrappedPrintStream:println:749]: 	at java.lang.Class.newInstance(Class.java:442)
+[00:39:01] [Server thread/INFO] [STDERR/MineTweaker3]: [java.lang.Throwable$WrappedPrintStream:println:749]: 	at cpw.mods.fml.common.ILanguageAdapter$JavaAdapter.getNewInstance(ILanguageAdapter.java:173)
+[00:39:01] [Server thread/INFO] [STDERR/MineTweaker3]: [java.lang.Throwable$WrappedPrintStream:println:749]: 	at cpw.mods.fml.common.FMLModContainer.constructMod(FMLModContainer.java:506)
+[00:39:01] [Server thread/INFO] [STDERR/MineTweaker3]: [java.lang.Throwable$WrappedPrintStream:println:749]: 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+[00:39:01] [Server thread/INFO] [STDERR/MineTweaker3]: [java.lang.Throwable$WrappedPrintStream:println:749]: 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+[00:39:01] [Server thread/INFO] [STDERR/MineTweaker3]: [java.lang.Throwable$WrappedPrintStream:println:749]: 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+[00:39:01] [Server thread/INFO] [STDERR/MineTweaker3]: [java.lang.Throwable$WrappedPrintStream:println:749]: 	at java.lang.reflect.Method.invoke(Method.java:498)
+[00:39:01] [Server thread/INFO] [STDERR/MineTweaker3]: [java.lang.Throwable$WrappedPrintStream:println:749]: 	at com.google.common.eventbus.EventSubscriber.handleEvent(EventSubscriber.java:74)
+[00:39:01] [Server thread/INFO] [STDERR/MineTweaker3]: [java.lang.Throwable$WrappedPrintStream:println:749]: 	at com.google.common.eventbus.SynchronizedEventSubscriber.handleEvent(SynchronizedEventSubscriber.java:47)
+[00:39:01] [Server thread/INFO] [STDERR/MineTweaker3]: [java.lang.Throwable$WrappedPrintStream:println:749]: 	at com.google.common.eventbus.EventBus.dispatch(EventBus.java:322)
+[00:39:01] [Server thread/INFO] [STDERR/MineTweaker3]: [java.lang.Throwable$WrappedPrintStream:println:749]: 	at com.google.common.eventbus.EventBus.dispatchQueuedEvents(EventBus.java:304)
+[00:39:01] [Server thread/INFO] [STDERR/MineTweaker3]: [java.lang.Throwable$WrappedPrintStream:println:749]: 	at com.google.common.eventbus.EventBus.post(EventBus.java:275)
+[00:39:01] [Server thread/INFO] [STDERR/MineTweaker3]: [java.lang.Throwable$WrappedPrintStream:println:749]: 	at cpw.mods.fml.common.LoadController.sendEventToModContainer(LoadController.java:212)
+[00:39:01] [Server thread/INFO] [STDERR/MineTweaker3]: [java.lang.Throwable$WrappedPrintStream:println:749]: 	at cpw.mods.fml.common.LoadController.propogateStateMessage(LoadController.java:190)
+[00:39:01] [Server thread/INFO] [STDERR/MineTweaker3]: [java.lang.Throwable$WrappedPrintStream:println:749]: 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+[00:39:01] [Server thread/INFO] [STDERR/MineTweaker3]: [java.lang.Throwable$WrappedPrintStream:println:749]: 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+[00:39:01] [Server thread/INFO] [STDERR/MineTweaker3]: [java.lang.Throwable$WrappedPrintStream:println:749]: 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+[00:39:01] [Server thread/INFO] [STDERR/MineTweaker3]: [java.lang.Throwable$WrappedPrintStream:println:749]: 	at java.lang.reflect.Method.invoke(Method.java:498)
+[00:39:01] [Server thread/INFO] [STDERR/MineTweaker3]: [java.lang.Throwable$WrappedPrintStream:println:749]: 	at com.google.common.eventbus.EventSubscriber.handleEvent(EventSubscriber.java:74)
+[00:39:01] [Server thread/INFO] [STDERR/MineTweaker3]: [java.lang.Throwable$WrappedPrintStream:println:749]: 	at com.google.common.eventbus.SynchronizedEventSubscriber.handleEvent(SynchronizedEventSubscriber.java:47)
+[00:39:01] [Server thread/INFO] [STDERR/MineTweaker3]: [java.lang.Throwable$WrappedPrintStream:println:749]: 	at com.google.common.eventbus.EventBus.dispatch(EventBus.java:322)
+[00:39:01] [Server thread/INFO] [STDERR/MineTweaker3]: [java.lang.Throwable$WrappedPrintStream:println:749]: 	at com.google.common.eventbus.EventBus.dispatchQueuedEvents(EventBus.java:304)
+[00:39:01] [Server thread/INFO] [STDERR/MineTweaker3]: [java.lang.Throwable$WrappedPrintStream:println:749]: 	at com.google.common.eventbus.EventBus.post(EventBus.java:275)
+[00:39:01] [Server thread/INFO] [STDERR/MineTweaker3]: [java.lang.Throwable$WrappedPrintStream:println:749]: 	at cpw.mods.fml.common.LoadController.distributeStateMessage(LoadController.java:119)
+[00:39:01] [Server thread/INFO] [STDERR/MineTweaker3]: [java.lang.Throwable$WrappedPrintStream:println:749]: 	at cpw.mods.fml.common.Loader.loadMods(Loader.java:513)
+[00:39:01] [Server thread/INFO] [STDERR/MineTweaker3]: [java.lang.Throwable$WrappedPrintStream:println:749]: 	at cpw.mods.fml.server.FMLServerHandler.beginServerLoading(FMLServerHandler.java:87)
+[00:39:01] [Server thread/INFO] [STDERR/MineTweaker3]: [java.lang.Throwable$WrappedPrintStream:println:749]: 	at cpw.mods.fml.common.FMLCommonHandler.onServerStart(FMLCommonHandler.java:314)
+[00:39:01] [Server thread/INFO] [STDERR/MineTweaker3]: [java.lang.Throwable$WrappedPrintStream:println:749]: 	at net.minecraft.server.dedicated.DedicatedServer.func_71197_b(DedicatedServer.java:117)
+[00:39:01] [Server thread/INFO] [STDERR/MineTweaker3]: [java.lang.Throwable$WrappedPrintStream:println:749]: 	at net.minecraft.server.MinecraftServer.run(MinecraftServer.java:387)
+[00:39:01] [Server thread/INFO] [STDERR/MineTweaker3]: [java.lang.Throwable$WrappedPrintStream:println:749]: 	at net.minecraft.server.MinecraftServer$2.run(MinecraftServer.java:685)
+[00:39:01] [Server thread/TRACE] [FML/MineTweaker3]: Mod MineTweaker3 is using network checker : Accepting version 3.1.0
+[00:39:01] [Server thread/TRACE] [FML/MineTweaker3]: Testing mod MineTweaker3 to verify it accepts its own version in a remote connection
+[00:39:01] [Server thread/TRACE] [FML/MineTweaker3]: The mod MineTweaker3 accepts its own version (3.1.0)
+[00:39:01] [Server thread/DEBUG] [FML/MineTweaker3]: Attempting to inject @SidedProxy classes into MineTweaker3
+[00:39:01] [Server thread/TRACE] [MineTweaker3/MineTweaker3]: Sent event FMLConstructionEvent to mod MineTweaker3
+[00:39:01] [Server thread/DEBUG] [FML/]: Bar Step: Construction - MineTweaker 3 took 0.510s
+[00:39:01] [Server thread/TRACE] [customnpcs/customnpcs]: Sending event FMLConstructionEvent to mod customnpcs
+[00:39:01] [Server thread/TRACE] [FML/customnpcs]: Mod customnpcs is using network checker : Accepting version 1.7.10d
+[00:39:01] [Server thread/TRACE] [FML/customnpcs]: Testing mod customnpcs to verify it accepts its own version in a remote connection
+[00:39:01] [Server thread/TRACE] [FML/customnpcs]: The mod customnpcs accepts its own version (1.7.10d)
+[00:39:01] [Server thread/DEBUG] [FML/customnpcs]: Attempting to inject @SidedProxy classes into customnpcs
+[00:39:01] [Server thread/TRACE] [customnpcs/customnpcs]: Sent event FMLConstructionEvent to mod customnpcs
+[00:39:01] [Server thread/DEBUG] [FML/]: Bar Step: Construction - CustomNpcs took 0.028s
+[00:39:01] [Server thread/TRACE] [defaultkeys/defaultkeys]: Sending event FMLConstructionEvent to mod defaultkeys
+[00:39:01] [Server thread/TRACE] [FML/defaultkeys]: Mod defaultkeys is using network checker : Accepting version 1.0.28
+[00:39:01] [Server thread/TRACE] [FML/defaultkeys]: Testing mod defaultkeys to verify it accepts its own version in a remote connection
+[00:39:01] [Server thread/TRACE] [FML/defaultkeys]: The mod defaultkeys accepts its own version (1.0.28)
+[00:39:01] [Server thread/DEBUG] [FML/defaultkeys]: Attempting to inject @SidedProxy classes into defaultkeys
+[00:39:01] [Server thread/TRACE] [defaultkeys/defaultkeys]: Sent event FMLConstructionEvent to mod defaultkeys
+[00:39:01] [Server thread/DEBUG] [FML/]: Bar Step: Construction - Default Keyconfig took 0.007s
+[00:39:01] [Server thread/TRACE] [jinryuujrmcore/jinryuujrmcore]: Sending event FMLConstructionEvent to mod jinryuujrmcore
+[00:39:01] [Server thread/TRACE] [FML/jinryuujrmcore]: Mod jinryuujrmcore is using network checker : Accepting version 1.3.30
+[00:39:01] [Server thread/TRACE] [FML/jinryuujrmcore]: Testing mod jinryuujrmcore to verify it accepts its own version in a remote connection
+[00:39:01] [Server thread/TRACE] [FML/jinryuujrmcore]: The mod jinryuujrmcore accepts its own version (1.3.30)
+[00:39:01] [Server thread/DEBUG] [FML/jinryuujrmcore]: Attempting to inject @SidedProxy classes into jinryuujrmcore
+[00:39:01] [Server thread/TRACE] [jinryuujrmcore/jinryuujrmcore]: Sent event FMLConstructionEvent to mod jinryuujrmcore
+[00:39:01] [Server thread/DEBUG] [FML/]: Bar Step: Construction - JinRyuu's JRMCore took 0.037s
+[00:39:01] [Server thread/TRACE] [jinryuudragonblockc/jinryuudragonblockc]: Sending event FMLConstructionEvent to mod jinryuudragonblockc
+[00:39:01] [Server thread/TRACE] [FML/jinryuudragonblockc]: Mod jinryuudragonblockc is using network checker : Accepting version 1.4.70
+[00:39:01] [Server thread/TRACE] [FML/jinryuudragonblockc]: Testing mod jinryuudragonblockc to verify it accepts its own version in a remote connection
+[00:39:01] [Server thread/TRACE] [FML/jinryuudragonblockc]: The mod jinryuudragonblockc accepts its own version (1.4.70)
+[00:39:01] [Server thread/DEBUG] [FML/jinryuudragonblockc]: Attempting to inject @SidedProxy classes into jinryuudragonblockc
+[00:39:01] [Server thread/TRACE] [jinryuudragonblockc/jinryuudragonblockc]: Sent event FMLConstructionEvent to mod jinryuudragonblockc
+[00:39:01] [Server thread/DEBUG] [FML/]: Bar Step: Construction - Dragon Block C took 0.038s
+[00:39:01] [Server thread/TRACE] [FoodExpansion/FoodExpansion]: Sending event FMLConstructionEvent to mod FoodExpansion
+[00:39:01] [Server thread/TRACE] [FML/FoodExpansion]: Mod FoodExpansion is using network checker : Accepting version 1.0
+[00:39:01] [Server thread/TRACE] [FML/FoodExpansion]: Testing mod FoodExpansion to verify it accepts its own version in a remote connection
+[00:39:01] [Server thread/TRACE] [FML/FoodExpansion]: The mod FoodExpansion accepts its own version (1.0)
+[00:39:01] [Server thread/DEBUG] [FML/FoodExpansion]: Attempting to inject @SidedProxy classes into FoodExpansion
+[00:39:01] [Server thread/TRACE] [FoodExpansion/FoodExpansion]: Sent event FMLConstructionEvent to mod FoodExpansion
+[00:39:01] [Server thread/DEBUG] [FML/]: Bar Step: Construction - Food Expansion took 0.003s
+[00:39:01] [Server thread/TRACE] [IronChest/IronChest]: Sending event FMLConstructionEvent to mod IronChest
+[00:39:01] [Server thread/TRACE] [FML/IronChest]: Mod IronChest is using network checker : Accepting version 6.0.62.742
+[00:39:01] [Server thread/TRACE] [FML/IronChest]: Testing mod IronChest to verify it accepts its own version in a remote connection
+[00:39:01] [Server thread/TRACE] [FML/IronChest]: The mod IronChest accepts its own version (6.0.62.742)
+[00:39:01] [Server thread/DEBUG] [FML/IronChest]: Attempting to inject @SidedProxy classes into IronChest
+[00:39:01] [Server thread/TRACE] [IronChest/IronChest]: Sent event FMLConstructionEvent to mod IronChest
+[00:39:01] [Server thread/DEBUG] [FML/]: Bar Step: Construction - Iron Chest took 0.005s
+[00:39:01] [Server thread/TRACE] [jinryuubetterrenderaddon/jinryuubetterrenderaddon]: Sending event FMLConstructionEvent to mod jinryuubetterrenderaddon
+[00:39:01] [Server thread/TRACE] [FML/jinryuubetterrenderaddon]: Mod jinryuubetterrenderaddon is using network checker : Accepting version 1.6.43
+[00:39:01] [Server thread/TRACE] [FML/jinryuubetterrenderaddon]: Testing mod jinryuubetterrenderaddon to verify it accepts its own version in a remote connection
+[00:39:01] [Server thread/TRACE] [FML/jinryuubetterrenderaddon]: The mod jinryuubetterrenderaddon accepts its own version (1.6.43)
+[00:39:01] [Server thread/DEBUG] [FML/jinryuubetterrenderaddon]: Attempting to inject @SidedProxy classes into jinryuubetterrenderaddon
+[00:39:01] [Server thread/TRACE] [jinryuubetterrenderaddon/jinryuubetterrenderaddon]: Sent event FMLConstructionEvent to mod jinryuubetterrenderaddon
+[00:39:01] [Server thread/DEBUG] [FML/]: Bar Step: Construction - JinRyuu's Better Render Addon took 0.003s
+[00:39:01] [Server thread/TRACE] [jinryuufamilyc/jinryuufamilyc]: Sending event FMLConstructionEvent to mod jinryuufamilyc
+[00:39:01] [Server thread/TRACE] [FML/jinryuufamilyc]: Mod jinryuufamilyc is using network checker : Accepting version 1.2.17
+[00:39:01] [Server thread/TRACE] [FML/jinryuufamilyc]: Testing mod jinryuufamilyc to verify it accepts its own version in a remote connection
+[00:39:01] [Server thread/TRACE] [FML/jinryuufamilyc]: The mod jinryuufamilyc accepts its own version (1.2.17)
+[00:39:01] [Server thread/DEBUG] [FML/jinryuufamilyc]: Attempting to inject @SidedProxy classes into jinryuufamilyc
+[00:39:01] [Server thread/TRACE] [jinryuufamilyc/jinryuufamilyc]: Sent event FMLConstructionEvent to mod jinryuufamilyc
+[00:39:01] [Server thread/DEBUG] [FML/]: Bar Step: Construction - JinRyuu's Family C took 0.004s
+[00:39:01] [Server thread/TRACE] [jinryuuhdskinsextended/jinryuuhdskinsextended]: Sending event FMLConstructionEvent to mod jinryuuhdskinsextended
+[00:39:01] [Server thread/TRACE] [FML/jinryuuhdskinsextended]: Mod jinryuuhdskinsextended is using network checker : Accepting version 1.3.1
+[00:39:01] [Server thread/TRACE] [FML/jinryuuhdskinsextended]: Testing mod jinryuuhdskinsextended to verify it accepts its own version in a remote connection
+[00:39:01] [Server thread/TRACE] [FML/jinryuuhdskinsextended]: The mod jinryuuhdskinsextended accepts its own version (1.3.1)
+[00:39:01] [Server thread/DEBUG] [FML/jinryuuhdskinsextended]: Attempting to inject @SidedProxy classes into jinryuuhdskinsextended
+[00:39:01] [Server thread/TRACE] [jinryuuhdskinsextended/jinryuuhdskinsextended]: Sent event FMLConstructionEvent to mod jinryuuhdskinsextended
+[00:39:01] [Server thread/DEBUG] [FML/]: Bar Step: Construction - JinRyuu's HD Skins Extended took 0.007s
+[00:39:01] [Server thread/TRACE] [journeymap/journeymap]: Sending event FMLConstructionEvent to mod journeymap
+[00:39:01] [Server thread/TRACE] [FML/journeymap]: Mod journeymap is using network checker : Invoking method checkModLists
+[00:39:01] [Server thread/TRACE] [FML/journeymap]: Testing mod journeymap to verify it accepts its own version in a remote connection
+[00:39:01] [Server thread/TRACE] [FML/journeymap]: The mod journeymap accepts its own version (5.1.4p2)
+[00:39:01] [Server thread/DEBUG] [FML/journeymap]: Attempting to inject @SidedProxy classes into journeymap
+[00:39:01] [Server thread/TRACE] [journeymap/journeymap]: Sent event FMLConstructionEvent to mod journeymap
+[00:39:01] [Server thread/DEBUG] [FML/]: Bar Step: Construction - JourneyMap took 0.007s
+[00:39:01] [Server thread/TRACE] [jinryuuyearsc/jinryuuyearsc]: Sending event FMLConstructionEvent to mod jinryuuyearsc
+[00:39:01] [Server thread/TRACE] [FML/jinryuuyearsc]: Mod jinryuuyearsc is using network checker : Accepting version 1.2.5
+[00:39:01] [Server thread/TRACE] [FML/jinryuuyearsc]: Testing mod jinryuuyearsc to verify it accepts its own version in a remote connection
+[00:39:01] [Server thread/TRACE] [FML/jinryuuyearsc]: The mod jinryuuyearsc accepts its own version (1.2.5)
+[00:39:01] [Server thread/DEBUG] [FML/jinryuuyearsc]: Attempting to inject @SidedProxy classes into jinryuuyearsc
+[00:39:01] [Server thread/TRACE] [jinryuuyearsc/jinryuuyearsc]: Sent event FMLConstructionEvent to mod jinryuuyearsc
+[00:39:01] [Server thread/DEBUG] [FML/]: Bar Step: Construction - JinRyuu's Years C took 0.005s
+[00:39:01] [Server thread/TRACE] [kleeslabs/kleeslabs]: Sending event FMLConstructionEvent to mod kleeslabs
+[00:39:01] [Server thread/TRACE] [FML/kleeslabs]: Mod kleeslabs is using network checker : Accepting version 1.0
+[00:39:01] [Server thread/TRACE] [FML/kleeslabs]: Testing mod kleeslabs to verify it accepts its own version in a remote connection
+[00:39:01] [Server thread/TRACE] [FML/kleeslabs]: The mod kleeslabs accepts its own version (1.0)
+[00:39:01] [Server thread/DEBUG] [FML/kleeslabs]: Attempting to inject @SidedProxy classes into kleeslabs
+[00:39:01] [Server thread/TRACE] [kleeslabs/kleeslabs]: Sent event FMLConstructionEvent to mod kleeslabs
+[00:39:01] [Server thread/DEBUG] [FML/]: Bar Step: Construction - KleeSlabs took 0.005s
+[00:39:01] [Server thread/TRACE] [modtweaker2/modtweaker2]: Sending event FMLConstructionEvent to mod modtweaker2
+[00:39:01] [Server thread/TRACE] [FML/modtweaker2]: Mod modtweaker2 is using network checker : Accepting version 0.9.6
+[00:39:01] [Server thread/TRACE] [FML/modtweaker2]: Testing mod modtweaker2 to verify it accepts its own version in a remote connection
+[00:39:01] [Server thread/TRACE] [FML/modtweaker2]: The mod modtweaker2 accepts its own version (0.9.6)
+[00:39:01] [Server thread/DEBUG] [FML/modtweaker2]: Attempting to inject @SidedProxy classes into modtweaker2
+[00:39:01] [Server thread/TRACE] [modtweaker2/modtweaker2]: Sent event FMLConstructionEvent to mod modtweaker2
+[00:39:01] [Server thread/DEBUG] [FML/]: Bar Step: Construction - Mod Tweaker 2 took 0.003s
+[00:39:01] [Server thread/TRACE] [Morpheus/Morpheus]: Sending event FMLConstructionEvent to mod Morpheus
+[00:39:01] [Server thread/TRACE] [FML/Morpheus]: Mod Morpheus is using network checker : No network checking performed
+[00:39:01] [Server thread/TRACE] [FML/Morpheus]: Testing mod Morpheus to verify it accepts its own version in a remote connection
+[00:39:01] [Server thread/TRACE] [FML/Morpheus]: The mod Morpheus accepts its own version (1.7.10-1.6.21)
+[00:39:01] [Server thread/DEBUG] [FML/Morpheus]: Attempting to inject @SidedProxy classes into Morpheus
+[00:39:01] [Server thread/TRACE] [Morpheus/Morpheus]: Sent event FMLConstructionEvent to mod Morpheus
+[00:39:01] [Server thread/DEBUG] [FML/]: Bar Step: Construction - Morpheus took 0.005s
+[00:39:01] [Server thread/TRACE] [MouseTweaks/MouseTweaks]: Sending event FMLConstructionEvent to mod MouseTweaks
+[00:39:02] [Server thread/TRACE] [FML/MouseTweaks]: Mod MouseTweaks is using network checker : Accepting version 2.4.4
+[00:39:02] [Server thread/TRACE] [FML/MouseTweaks]: Testing mod MouseTweaks to verify it accepts its own version in a remote connection
+[00:39:02] [Server thread/TRACE] [FML/MouseTweaks]: The mod MouseTweaks accepts its own version (2.4.4)
+[00:39:02] [Server thread/DEBUG] [FML/MouseTweaks]: Attempting to inject @SidedProxy classes into MouseTweaks
+[00:39:02] [Server thread/TRACE] [MouseTweaks/MouseTweaks]: Sent event FMLConstructionEvent to mod MouseTweaks
+[00:39:02] [Server thread/DEBUG] [FML/]: Bar Step: Construction - Mouse Tweaks took 0.031s
+[00:39:02] [Server thread/TRACE] [oreexcavation/oreexcavation]: Sending event FMLConstructionEvent to mod oreexcavation
+[00:39:02] [Server thread/TRACE] [FML/oreexcavation]: Mod oreexcavation is using network checker : Accepting version 1.1.134
+[00:39:02] [Server thread/TRACE] [FML/oreexcavation]: Testing mod oreexcavation to verify it accepts its own version in a remote connection
+[00:39:02] [Server thread/TRACE] [FML/oreexcavation]: The mod oreexcavation accepts its own version (1.1.134)
+[00:39:02] [Server thread/DEBUG] [FML/oreexcavation]: Attempting to inject @SidedProxy classes into oreexcavation
+[00:39:02] [Server thread/TRACE] [oreexcavation/oreexcavation]: Sent event FMLConstructionEvent to mod oreexcavation
+[00:39:02] [Server thread/DEBUG] [FML/]: Bar Step: Construction - OreExcavation took 0.011s
+[00:39:02] [Server thread/TRACE] [ResourceLoader/ResourceLoader]: Sending event FMLConstructionEvent to mod ResourceLoader
+[00:39:02] [Server thread/TRACE] [FML/ResourceLoader]: Mod ResourceLoader is using network checker : Accepting version 1.3
+[00:39:02] [Server thread/TRACE] [FML/ResourceLoader]: Testing mod ResourceLoader to verify it accepts its own version in a remote connection
+[00:39:02] [Server thread/TRACE] [FML/ResourceLoader]: The mod ResourceLoader accepts its own version (1.3)
+[00:39:02] [Server thread/DEBUG] [FML/ResourceLoader]: Attempting to inject @SidedProxy classes into ResourceLoader
+[00:39:02] [Server thread/TRACE] [ResourceLoader/ResourceLoader]: Sent event FMLConstructionEvent to mod ResourceLoader
+[00:39:02] [Server thread/DEBUG] [FML/]: Bar Step: Construction - Resource Loader took 0.006s
+[00:39:02] [Server thread/TRACE] [jinryuusaoc/jinryuusaoc]: Sending event FMLConstructionEvent to mod jinryuusaoc
+[00:39:02] [Server thread/TRACE] [FML/jinryuusaoc]: Mod jinryuusaoc is using network checker : Accepting version 0.0.5
+[00:39:02] [Server thread/TRACE] [FML/jinryuusaoc]: Testing mod jinryuusaoc to verify it accepts its own version in a remote connection
+[00:39:02] [Server thread/TRACE] [FML/jinryuusaoc]: The mod jinryuusaoc accepts its own version (0.0.5)
+[00:39:02] [Server thread/DEBUG] [FML/jinryuusaoc]: Attempting to inject @SidedProxy classes into jinryuusaoc
+[00:39:02] [Server thread/TRACE] [jinryuusaoc/jinryuusaoc]: Sent event FMLConstructionEvent to mod jinryuusaoc
+[00:39:02] [Server thread/DEBUG] [FML/]: Bar Step: Construction - Sword Art Online C took 0.008s
+[00:39:02] [Server thread/DEBUG] [FML/]: Bar Finished: Construction took 1.018s
+[00:39:02] [Server thread/DEBUG] [FML/]: Mod signature data
+[00:39:02] [Server thread/DEBUG] [FML/]:  	Valid Signatures:
+[00:39:02] [Server thread/DEBUG] [FML/]:  	Missing Signatures:
+[00:39:02] [Server thread/DEBUG] [FML/]: 		mcp	(Minecraft Coder Pack	9.05)	minecraft.jar
+[00:39:02] [Server thread/DEBUG] [FML/]: 		FML	(Forge Mod Loader	7.10.99.99)	forge-1.7.10-10.13.4.1614-1.7.10-universal.jar
+[00:39:02] [Server thread/DEBUG] [FML/]: 		Forge	(Minecraft Forge	10.13.4.1614)	forge-1.7.10-10.13.4.1614-1.7.10-universal.jar
+[00:39:02] [Server thread/DEBUG] [FML/]: 		CodeChickenCore	(CodeChicken Core	1.0.7.47)	minecraft.jar
+[00:39:02] [Server thread/DEBUG] [FML/]: 		NotEnoughItems	(Not Enough Items	1.0.5.120)	NotEnoughItems-1.7.10-1.0.5.120-universal.jar
+[00:39:02] [Server thread/DEBUG] [FML/]: 		DamageIndicatorsMod	(Damage Indicators	3.3.2)	[1.7.10]DamageIndicatorsMod-3.3.2.jar
+[00:39:02] [Server thread/DEBUG] [FML/]: 		AppleCore	(AppleCore	3.1.1)	AppleCore-mc1.7.10-3.1.1.jar
+[00:39:02] [Server thread/DEBUG] [FML/]: 		chisel	(Chisel	2.9.5.11)	Chisel-2.9.5.11.jar
+[00:39:02] [Server thread/DEBUG] [FML/]: 		cosmeticarmorreworked	(CosmeticArmorReworked	1.7.10-v6b)	CosmeticArmorReworked-1.7.10-v6b.jar
+[00:39:02] [Server thread/DEBUG] [FML/]: 		MineTweaker3	(MineTweaker 3	3.1.0)	CraftTweaker-1.7.10-3.1.0-legacy.jar
+[00:39:02] [Server thread/DEBUG] [FML/]: 		customnpcs	(CustomNpcs	1.7.10d)	CustomNPCs_1.7.10d(29oct17).jar
+[00:39:02] [Server thread/DEBUG] [FML/]: 		defaultkeys	(Default Keyconfig	1.0.28)	defaultkeys-mc1.7.10-1.0.28.jar
+[00:39:02] [Server thread/DEBUG] [FML/]: 		jinryuujrmcore	(JinRyuu's JRMCore	1.3.30)	JRMCore-v1.3.30.jar
+[00:39:02] [Server thread/DEBUG] [FML/]: 		jinryuudragonblockc	(Dragon Block C	1.4.70)	DragonBlockC-v1.4.70.jar
+[00:39:02] [Server thread/DEBUG] [FML/]: 		FoodExpansion	(Food Expansion	1.0)	FoodExpansion1.1.1-mc1.7.10.jar
+[00:39:02] [Server thread/DEBUG] [FML/]: 		IronChest	(Iron Chest	6.0.62.742)	ironchest-1.7.10-6.0.62.742-universal.jar
+[00:39:02] [Server thread/DEBUG] [FML/]: 		jinryuubetterrenderaddon	(JinRyuu's Better Render Addon	1.6.43)	JBRA-Client-v1.6.43.jar
+[00:39:02] [Server thread/DEBUG] [FML/]: 		jinryuufamilyc	(JinRyuu's Family C	1.2.17)	JFamilyC-v1.2.17.jar
+[00:39:02] [Server thread/DEBUG] [FML/]: 		jinryuuhdskinsextended	(JinRyuu's HD Skins Extended	1.3.1)	JinRyuu's-HDSkins-Mod-1.7.10-v1.3.1.jar
+[00:39:02] [Server thread/DEBUG] [FML/]: 		journeymap	(JourneyMap	5.1.4p2)	journeymap-1.7.10-5.1.4p2-unlimited.jar
+[00:39:02] [Server thread/DEBUG] [FML/]: 		jinryuuyearsc	(JinRyuu's Years C	1.2.5)	JYearsC-v1.2.5.jar
+[00:39:02] [Server thread/DEBUG] [FML/]: 		kleeslabs	(KleeSlabs	1.0)	kleeslabs-mc1.7.10-1.2.9.jar
+[00:39:02] [Server thread/DEBUG] [FML/]: 		modtweaker2	(Mod Tweaker 2	0.9.6)	ModTweaker2-0.9.6.jar
+[00:39:02] [Server thread/DEBUG] [FML/]: 		Morpheus	(Morpheus	1.7.10-1.6.21)	Morpheus-1.7.10-1.6.21.jar
+[00:39:02] [Server thread/DEBUG] [FML/]: 		MouseTweaks	(Mouse Tweaks	2.4.4)	MouseTweaks-2.4.4-mc1.7.10.jar
+[00:39:02] [Server thread/DEBUG] [FML/]: 		oreexcavation	(OreExcavation	1.1.134)	OreExcavation-1.1.134.jar
+[00:39:02] [Server thread/DEBUG] [FML/]: 		ResourceLoader	(Resource Loader	1.3)	ResourceLoader-MC1.7.10-1.3.jar
+[00:39:02] [Server thread/DEBUG] [FML/]: 		jinryuusaoc	(Sword Art Online C	0.0.5)	SwordArtOnlineC-v0.0.5.jar
+[00:39:02] [Server thread/ERROR] [FML/]: Fatal errors were detected during the transition from CONSTRUCTING to PREINITIALIZATION. Loading cannot continue
+[00:39:02] [Server thread/ERROR] [FML/]: 
+	States: 'U' = Unloaded 'L' = Loaded 'C' = Constructed 'H' = Pre-initialized 'I' = Initialized 'J' = Post-initialized 'A' = Available 'D' = Disabled 'E' = Errored
+	UC	mcp{9.05} [Minecraft Coder Pack] (minecraft.jar) 
+	UC	FML{7.10.99.99} [Forge Mod Loader] (forge-1.7.10-10.13.4.1614-1.7.10-universal.jar) 
+	UC	Forge{10.13.4.1614} [Minecraft Forge] (forge-1.7.10-10.13.4.1614-1.7.10-universal.jar) 
+	UC	CodeChickenCore{1.0.7.47} [CodeChicken Core] (minecraft.jar) 
+	UC	NotEnoughItems{1.0.5.120} [Not Enough Items] (NotEnoughItems-1.7.10-1.0.5.120-universal.jar) 
+	UC	DamageIndicatorsMod{3.3.2} [Damage Indicators] ([1.7.10]DamageIndicatorsMod-3.3.2.jar) 
+	UC	AppleCore{3.1.1} [AppleCore] (AppleCore-mc1.7.10-3.1.1.jar) 
+	UC	chisel{2.9.5.11} [Chisel] (Chisel-2.9.5.11.jar) 
+	UC	cosmeticarmorreworked{1.7.10-v6b} [CosmeticArmorReworked] (CosmeticArmorReworked-1.7.10-v6b.jar) 
+	UC	MineTweaker3{3.1.0} [MineTweaker 3] (CraftTweaker-1.7.10-3.1.0-legacy.jar) 
+	UC	customnpcs{1.7.10d} [CustomNpcs] (CustomNPCs_1.7.10d(29oct17).jar) 
+	UC	defaultkeys{1.0.28} [Default Keyconfig] (defaultkeys-mc1.7.10-1.0.28.jar) 
+	UC	jinryuujrmcore{1.3.30} [JinRyuu's JRMCore] (JRMCore-v1.3.30.jar) 
+	UC	jinryuudragonblockc{1.4.70} [Dragon Block C] (DragonBlockC-v1.4.70.jar) 
+	UC	FoodExpansion{1.0} [Food Expansion] (FoodExpansion1.1.1-mc1.7.10.jar) 
+	UC	IronChest{6.0.62.742} [Iron Chest] (ironchest-1.7.10-6.0.62.742-universal.jar) 
+	UC	jinryuubetterrenderaddon{1.6.43} [JinRyuu's Better Render Addon] (JBRA-Client-v1.6.43.jar) 
+	UC	jinryuufamilyc{1.2.17} [JinRyuu's Family C] (JFamilyC-v1.2.17.jar) 
+	UC	jinryuuhdskinsextended{1.3.1} [JinRyuu's HD Skins Extended] (JinRyuu's-HDSkins-Mod-1.7.10-v1.3.1.jar) 
+	UC	journeymap{5.1.4p2} [JourneyMap] (journeymap-1.7.10-5.1.4p2-unlimited.jar) 
+	UC	jinryuuyearsc{1.2.5} [JinRyuu's Years C] (JYearsC-v1.2.5.jar) 
+	UC	kleeslabs{1.0} [KleeSlabs] (kleeslabs-mc1.7.10-1.2.9.jar) 
+	UC	modtweaker2{0.9.6} [Mod Tweaker 2] (ModTweaker2-0.9.6.jar) 
+	UC	Morpheus{1.7.10-1.6.21} [Morpheus] (Morpheus-1.7.10-1.6.21.jar) 
+	UC	MouseTweaks{2.4.4} [Mouse Tweaks] (MouseTweaks-2.4.4-mc1.7.10.jar) 
+	UC	oreexcavation{1.1.134} [OreExcavation] (OreExcavation-1.1.134.jar) 
+	UE	ResourceLoader{1.3} [Resource Loader] (ResourceLoader-MC1.7.10-1.3.jar) 
+	UC	jinryuusaoc{0.0.5} [Sword Art Online C] (SwordArtOnlineC-v0.0.5.jar) 
+[00:39:02] [Server thread/ERROR] [FML/]: The following problems were captured during this phase
+[00:39:02] [Server thread/ERROR] [FML/]: Caught exception from ResourceLoader
+java.lang.NoClassDefFoundError: Llumien/resourceloader/loader/NormalResourceLoader;
+	at java.lang.Class.getDeclaredFields0(Native Method) ~[?:1.8.0_442]
+	at java.lang.Class.privateGetDeclaredFields(Class.java:2583) ~[?:1.8.0_442]
+	at java.lang.Class.getDeclaredField(Class.java:2068) ~[?:1.8.0_442]
+	at cpw.mods.fml.common.FMLModContainer.parseSimpleFieldAnnotation(FMLModContainer.java:404) ~[FMLModContainer.class:?]
+	at cpw.mods.fml.common.FMLModContainer.processFieldAnnotations(FMLModContainer.java:358) ~[FMLModContainer.class:?]
+	at cpw.mods.fml.common.FMLModContainer.constructMod(FMLModContainer.java:513) ~[FMLModContainer.class:?]
+	at sun.reflect.GeneratedMethodAccessor4.invoke(Unknown Source) ~[?:?]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_442]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_442]
+	at com.google.common.eventbus.EventSubscriber.handleEvent(EventSubscriber.java:74) ~[guava-17.0.jar:?]
+	at com.google.common.eventbus.SynchronizedEventSubscriber.handleEvent(SynchronizedEventSubscriber.java:47) ~[guava-17.0.jar:?]
+	at com.google.common.eventbus.EventBus.dispatch(EventBus.java:322) ~[guava-17.0.jar:?]
+	at com.google.common.eventbus.EventBus.dispatchQueuedEvents(EventBus.java:304) ~[guava-17.0.jar:?]
+	at com.google.common.eventbus.EventBus.post(EventBus.java:275) ~[guava-17.0.jar:?]
+	at cpw.mods.fml.common.LoadController.sendEventToModContainer(LoadController.java:212) ~[LoadController.class:?]
+	at cpw.mods.fml.common.LoadController.propogateStateMessage(LoadController.java:190) ~[LoadController.class:?]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_442]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_442]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_442]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_442]
+	at com.google.common.eventbus.EventSubscriber.handleEvent(EventSubscriber.java:74) ~[guava-17.0.jar:?]
+	at com.google.common.eventbus.SynchronizedEventSubscriber.handleEvent(SynchronizedEventSubscriber.java:47) ~[guava-17.0.jar:?]
+	at com.google.common.eventbus.EventBus.dispatch(EventBus.java:322) ~[guava-17.0.jar:?]
+	at com.google.common.eventbus.EventBus.dispatchQueuedEvents(EventBus.java:304) ~[guava-17.0.jar:?]
+	at com.google.common.eventbus.EventBus.post(EventBus.java:275) ~[guava-17.0.jar:?]
+	at cpw.mods.fml.common.LoadController.distributeStateMessage(LoadController.java:119) [LoadController.class:?]
+	at cpw.mods.fml.common.Loader.loadMods(Loader.java:513) [Loader.class:?]
+	at cpw.mods.fml.server.FMLServerHandler.beginServerLoading(FMLServerHandler.java:87) [FMLServerHandler.class:?]
+	at cpw.mods.fml.common.FMLCommonHandler.onServerStart(FMLCommonHandler.java:314) [FMLCommonHandler.class:?]
+	at net.minecraft.server.dedicated.DedicatedServer.func_71197_b(DedicatedServer.java:117) [lt.class:?]
+	at net.minecraft.server.MinecraftServer.run(MinecraftServer.java:387) [MinecraftServer.class:?]
+	at net.minecraft.server.MinecraftServer$2.run(MinecraftServer.java:685) [li.class:?]
+Caused by: java.lang.ClassNotFoundException: lumien.resourceloader.loader.NormalResourceLoader
+	at net.minecraft.launchwrapper.LaunchClassLoader.findClass(LaunchClassLoader.java:191) ~[launchwrapper-1.12.jar:?]
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:418) ~[?:1.8.0_442]
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:351) ~[?:1.8.0_442]
+	... 32 more
+Caused by: java.lang.NoClassDefFoundError: net/minecraft/client/resources/IResourcePack
+	at java.lang.ClassLoader.defineClass1(Native Method) ~[?:1.8.0_442]
+	at java.lang.ClassLoader.defineClass(ClassLoader.java:756) ~[?:1.8.0_442]
+	at java.security.SecureClassLoader.defineClass(SecureClassLoader.java:142) ~[?:1.8.0_442]
+	at net.minecraft.launchwrapper.LaunchClassLoader.findClass(LaunchClassLoader.java:182) ~[launchwrapper-1.12.jar:?]
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:418) ~[?:1.8.0_442]
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:351) ~[?:1.8.0_442]
+	... 32 more
+Caused by: java.lang.ClassNotFoundException: net.minecraft.client.resources.IResourcePack
+	at net.minecraft.launchwrapper.LaunchClassLoader.findClass(LaunchClassLoader.java:191) ~[launchwrapper-1.12.jar:?]
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:418) ~[?:1.8.0_442]
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:351) ~[?:1.8.0_442]
+	at java.lang.ClassLoader.defineClass1(Native Method) ~[?:1.8.0_442]
+	at java.lang.ClassLoader.defineClass(ClassLoader.java:756) ~[?:1.8.0_442]
+	at java.security.SecureClassLoader.defineClass(SecureClassLoader.java:142) ~[?:1.8.0_442]
+	at net.minecraft.launchwrapper.LaunchClassLoader.findClass(LaunchClassLoader.java:182) ~[launchwrapper-1.12.jar:?]
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:418) ~[?:1.8.0_442]
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:351) ~[?:1.8.0_442]
+	... 32 more
+Caused by: java.lang.NullPointerException
+	at net.minecraft.launchwrapper.LaunchClassLoader.findClass(LaunchClassLoader.java:182) ~[launchwrapper-1.12.jar:?]
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:418) ~[?:1.8.0_442]
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:351) ~[?:1.8.0_442]
+	at java.lang.ClassLoader.defineClass1(Native Method) ~[?:1.8.0_442]
+	at java.lang.ClassLoader.defineClass(ClassLoader.java:756) ~[?:1.8.0_442]
+	at java.security.SecureClassLoader.defineClass(SecureClassLoader.java:142) ~[?:1.8.0_442]
+	at net.minecraft.launchwrapper.LaunchClassLoader.findClass(LaunchClassLoader.java:182) ~[launchwrapper-1.12.jar:?]
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:418) ~[?:1.8.0_442]
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:351) ~[?:1.8.0_442]
+	... 32 more
+[00:39:02] [Server thread/WARN] [FML/]: Can't revert to frozen GameData state without freezing first.
+[00:39:02] [Server thread/TRACE] [mcp/mcp]: Sending event FMLModIdMappingEvent to mod mcp
+[00:39:02] [Server thread/TRACE] [mcp/mcp]: Sent event FMLModIdMappingEvent to mod mcp
+[00:39:02] [Server thread/DEBUG] [FML/]: Bar Step: ModIdMapping - Minecraft Coder Pack took 0.000s
+[00:39:02] [Server thread/TRACE] [FML/FML]: Sending event FMLModIdMappingEvent to mod FML
+[00:39:02] [Server thread/TRACE] [FML/FML]: Sent event FMLModIdMappingEvent to mod FML
+[00:39:02] [Server thread/DEBUG] [FML/]: Bar Step: ModIdMapping - Forge Mod Loader took 0.000s
+[00:39:02] [Server thread/TRACE] [Forge/Forge]: Sending event FMLModIdMappingEvent to mod Forge
+[00:39:02] [Server thread/TRACE] [Forge/Forge]: Sent event FMLModIdMappingEvent to mod Forge
+[00:39:02] [Server thread/DEBUG] [FML/]: Bar Step: ModIdMapping - Minecraft Forge took 0.002s
+[00:39:02] [Server thread/TRACE] [CodeChickenCore/CodeChickenCore]: Sending event FMLModIdMappingEvent to mod CodeChickenCore
+[00:39:02] [Server thread/TRACE] [CodeChickenCore/CodeChickenCore]: Sent event FMLModIdMappingEvent to mod CodeChickenCore
+[00:39:02] [Server thread/DEBUG] [FML/]: Bar Step: ModIdMapping - CodeChicken Core took 0.000s
+[00:39:02] [Server thread/TRACE] [NotEnoughItems/NotEnoughItems]: Sending event FMLModIdMappingEvent to mod NotEnoughItems
+[00:39:02] [Server thread/TRACE] [NotEnoughItems/NotEnoughItems]: Sent event FMLModIdMappingEvent to mod NotEnoughItems
+[00:39:02] [Server thread/DEBUG] [FML/]: Bar Step: ModIdMapping - Not Enough Items took 0.000s
+[00:39:02] [Server thread/TRACE] [DamageIndicatorsMod/DamageIndicatorsMod]: Sending event FMLModIdMappingEvent to mod DamageIndicatorsMod
+[00:39:02] [Server thread/TRACE] [DamageIndicatorsMod/DamageIndicatorsMod]: Sent event FMLModIdMappingEvent to mod DamageIndicatorsMod
+[00:39:02] [Server thread/DEBUG] [FML/]: Bar Step: ModIdMapping - Damage Indicators took 0.000s
+[00:39:02] [Server thread/TRACE] [AppleCore/AppleCore]: Sending event FMLModIdMappingEvent to mod AppleCore
+[00:39:02] [Server thread/TRACE] [AppleCore/AppleCore]: Sent event FMLModIdMappingEvent to mod AppleCore
+[00:39:02] [Server thread/DEBUG] [FML/]: Bar Step: ModIdMapping - AppleCore took 0.000s
+[00:39:02] [Server thread/TRACE] [chisel/chisel]: Sending event FMLModIdMappingEvent to mod chisel
+[00:39:02] [Server thread/TRACE] [chisel/chisel]: Sent event FMLModIdMappingEvent to mod chisel
+[00:39:02] [Server thread/DEBUG] [FML/]: Bar Step: ModIdMapping - Chisel took 0.000s
+[00:39:02] [Server thread/TRACE] [cosmeticarmorreworked/cosmeticarmorreworked]: Sending event FMLModIdMappingEvent to mod cosmeticarmorreworked
+[00:39:02] [Server thread/TRACE] [cosmeticarmorreworked/cosmeticarmorreworked]: Sent event FMLModIdMappingEvent to mod cosmeticarmorreworked
+[00:39:02] [Server thread/DEBUG] [FML/]: Bar Step: ModIdMapping - CosmeticArmorReworked took 0.000s
+[00:39:02] [Server thread/TRACE] [MineTweaker3/MineTweaker3]: Sending event FMLModIdMappingEvent to mod MineTweaker3
+[00:39:02] [Server thread/TRACE] [MineTweaker3/MineTweaker3]: Sent event FMLModIdMappingEvent to mod MineTweaker3
+[00:39:02] [Server thread/DEBUG] [FML/]: Bar Step: ModIdMapping - MineTweaker 3 took 0.000s
+[00:39:02] [Server thread/TRACE] [customnpcs/customnpcs]: Sending event FMLModIdMappingEvent to mod customnpcs
+[00:39:02] [Server thread/TRACE] [customnpcs/customnpcs]: Sent event FMLModIdMappingEvent to mod customnpcs
+[00:39:02] [Server thread/DEBUG] [FML/]: Bar Step: ModIdMapping - CustomNpcs took 0.000s
+[00:39:02] [Server thread/TRACE] [defaultkeys/defaultkeys]: Sending event FMLModIdMappingEvent to mod defaultkeys
+[00:39:02] [Server thread/TRACE] [defaultkeys/defaultkeys]: Sent event FMLModIdMappingEvent to mod defaultkeys
+[00:39:02] [Server thread/DEBUG] [FML/]: Bar Step: ModIdMapping - Default Keyconfig took 0.000s
+[00:39:02] [Server thread/TRACE] [jinryuujrmcore/jinryuujrmcore]: Sending event FMLModIdMappingEvent to mod jinryuujrmcore
+[00:39:02] [Server thread/TRACE] [jinryuujrmcore/jinryuujrmcore]: Sent event FMLModIdMappingEvent to mod jinryuujrmcore
+[00:39:02] [Server thread/DEBUG] [FML/]: Bar Step: ModIdMapping - JinRyuu's JRMCore took 0.000s
+[00:39:02] [Server thread/TRACE] [jinryuudragonblockc/jinryuudragonblockc]: Sending event FMLModIdMappingEvent to mod jinryuudragonblockc
+[00:39:02] [Server thread/TRACE] [jinryuudragonblockc/jinryuudragonblockc]: Sent event FMLModIdMappingEvent to mod jinryuudragonblockc
+[00:39:02] [Server thread/DEBUG] [FML/]: Bar Step: ModIdMapping - Dragon Block C took 0.000s
+[00:39:02] [Server thread/TRACE] [FoodExpansion/FoodExpansion]: Sending event FMLModIdMappingEvent to mod FoodExpansion
+[00:39:02] [Server thread/TRACE] [FoodExpansion/FoodExpansion]: Sent event FMLModIdMappingEvent to mod FoodExpansion
+[00:39:02] [Server thread/DEBUG] [FML/]: Bar Step: ModIdMapping - Food Expansion took 0.000s
+[00:39:02] [Server thread/TRACE] [IronChest/IronChest]: Sending event FMLModIdMappingEvent to mod IronChest
+[00:39:02] [Server thread/TRACE] [IronChest/IronChest]: Sent event FMLModIdMappingEvent to mod IronChest
+[00:39:02] [Server thread/DEBUG] [FML/]: Bar Step: ModIdMapping - Iron Chest took 0.000s
+[00:39:02] [Server thread/TRACE] [jinryuubetterrenderaddon/jinryuubetterrenderaddon]: Sending event FMLModIdMappingEvent to mod jinryuubetterrenderaddon
+[00:39:02] [Server thread/TRACE] [jinryuubetterrenderaddon/jinryuubetterrenderaddon]: Sent event FMLModIdMappingEvent to mod jinryuubetterrenderaddon
+[00:39:02] [Server thread/DEBUG] [FML/]: Bar Step: ModIdMapping - JinRyuu's Better Render Addon took 0.000s
+[00:39:02] [Server thread/TRACE] [jinryuufamilyc/jinryuufamilyc]: Sending event FMLModIdMappingEvent to mod jinryuufamilyc
+[00:39:02] [Server thread/TRACE] [jinryuufamilyc/jinryuufamilyc]: Sent event FMLModIdMappingEvent to mod jinryuufamilyc
+[00:39:02] [Server thread/DEBUG] [FML/]: Bar Step: ModIdMapping - JinRyuu's Family C took 0.000s
+[00:39:02] [Server thread/TRACE] [jinryuuhdskinsextended/jinryuuhdskinsextended]: Sending event FMLModIdMappingEvent to mod jinryuuhdskinsextended
+[00:39:02] [Server thread/TRACE] [jinryuuhdskinsextended/jinryuuhdskinsextended]: Sent event FMLModIdMappingEvent to mod jinryuuhdskinsextended
+[00:39:02] [Server thread/DEBUG] [FML/]: Bar Step: ModIdMapping - JinRyuu's HD Skins Extended took 0.001s
+[00:39:02] [Server thread/TRACE] [journeymap/journeymap]: Sending event FMLModIdMappingEvent to mod journeymap
+[00:39:02] [Server thread/TRACE] [journeymap/journeymap]: Sent event FMLModIdMappingEvent to mod journeymap
+[00:39:02] [Server thread/DEBUG] [FML/]: Bar Step: ModIdMapping - JourneyMap took 0.001s
+[00:39:02] [Server thread/TRACE] [jinryuuyearsc/jinryuuyearsc]: Sending event FMLModIdMappingEvent to mod jinryuuyearsc
+[00:39:02] [Server thread/TRACE] [jinryuuyearsc/jinryuuyearsc]: Sent event FMLModIdMappingEvent to mod jinryuuyearsc
+[00:39:02] [Server thread/DEBUG] [FML/]: Bar Step: ModIdMapping - JinRyuu's Years C took 0.001s
+[00:39:02] [Server thread/TRACE] [kleeslabs/kleeslabs]: Sending event FMLModIdMappingEvent to mod kleeslabs
+[00:39:02] [Server thread/TRACE] [kleeslabs/kleeslabs]: Sent event FMLModIdMappingEvent to mod kleeslabs
+[00:39:02] [Server thread/DEBUG] [FML/]: Bar Step: ModIdMapping - KleeSlabs took 0.001s
+[00:39:02] [Server thread/TRACE] [modtweaker2/modtweaker2]: Sending event FMLModIdMappingEvent to mod modtweaker2
+[00:39:02] [Server thread/TRACE] [modtweaker2/modtweaker2]: Sent event FMLModIdMappingEvent to mod modtweaker2
+[00:39:02] [Server thread/DEBUG] [FML/]: Bar Step: ModIdMapping - Mod Tweaker 2 took 0.001s
+[00:39:02] [Server thread/TRACE] [Morpheus/Morpheus]: Sending event FMLModIdMappingEvent to mod Morpheus
+[00:39:02] [Server thread/TRACE] [Morpheus/Morpheus]: Sent event FMLModIdMappingEvent to mod Morpheus
+[00:39:02] [Server thread/DEBUG] [FML/]: Bar Step: ModIdMapping - Morpheus took 0.001s
+[00:39:02] [Server thread/TRACE] [MouseTweaks/MouseTweaks]: Sending event FMLModIdMappingEvent to mod MouseTweaks
+[00:39:02] [Server thread/TRACE] [MouseTweaks/MouseTweaks]: Sent event FMLModIdMappingEvent to mod MouseTweaks
+[00:39:02] [Server thread/DEBUG] [FML/]: Bar Step: ModIdMapping - Mouse Tweaks took 0.000s
+[00:39:02] [Server thread/TRACE] [oreexcavation/oreexcavation]: Sending event FMLModIdMappingEvent to mod oreexcavation
+[00:39:02] [Server thread/TRACE] [oreexcavation/oreexcavation]: Sent event FMLModIdMappingEvent to mod oreexcavation
+[00:39:02] [Server thread/DEBUG] [FML/]: Bar Step: ModIdMapping - OreExcavation took 0.000s
+[00:39:02] [Server thread/TRACE] [ResourceLoader/ResourceLoader]: Sending event FMLModIdMappingEvent to mod ResourceLoader
+[00:39:02] [Server thread/TRACE] [ResourceLoader/ResourceLoader]: Sent event FMLModIdMappingEvent to mod ResourceLoader
+[00:39:02] [Server thread/DEBUG] [FML/]: Bar Step: ModIdMapping - Resource Loader took 0.000s
+[00:39:02] [Server thread/TRACE] [jinryuusaoc/jinryuusaoc]: Sending event FMLModIdMappingEvent to mod jinryuusaoc
+[00:39:02] [Server thread/TRACE] [jinryuusaoc/jinryuusaoc]: Sent event FMLModIdMappingEvent to mod jinryuusaoc
+[00:39:02] [Server thread/DEBUG] [FML/]: Bar Step: ModIdMapping - Sword Art Online C took 0.001s
+[00:39:02] [Server thread/DEBUG] [FML/]: Bar Finished: ModIdMapping took 0.013s
+[00:39:02] [Server thread/INFO] [FML/]: Applying holder lookups
+[00:39:02] [Server thread/INFO] [FML/]: Holder lookups applied
+[00:39:02] [Server thread/TRACE] [mcp/mcp]: Sending event FMLServerStoppedEvent to mod mcp
+[00:39:02] [Server thread/TRACE] [mcp/mcp]: Sent event FMLServerStoppedEvent to mod mcp
+[00:39:02] [Server thread/DEBUG] [FML/]: Bar Step: ServerStopped - Minecraft Coder Pack took 0.000s
+[00:39:02] [Server thread/TRACE] [FML/FML]: Sending event FMLServerStoppedEvent to mod FML
+[00:39:02] [Server thread/TRACE] [FML/FML]: Sent event FMLServerStoppedEvent to mod FML
+[00:39:02] [Server thread/DEBUG] [FML/]: Bar Step: ServerStopped - Forge Mod Loader took 0.000s
+[00:39:02] [Server thread/TRACE] [Forge/Forge]: Sending event FMLServerStoppedEvent to mod Forge
+[00:39:02] [Server thread/TRACE] [Forge/Forge]: Sent event FMLServerStoppedEvent to mod Forge
+[00:39:02] [Server thread/DEBUG] [FML/]: Bar Step: ServerStopped - Minecraft Forge took 0.000s
+[00:39:02] [Server thread/TRACE] [CodeChickenCore/CodeChickenCore]: Sending event FMLServerStoppedEvent to mod CodeChickenCore
+[00:39:02] [Server thread/TRACE] [CodeChickenCore/CodeChickenCore]: Sent event FMLServerStoppedEvent to mod CodeChickenCore
+[00:39:02] [Server thread/DEBUG] [FML/]: Bar Step: ServerStopped - CodeChicken Core took 0.000s
+[00:39:02] [Server thread/TRACE] [NotEnoughItems/NotEnoughItems]: Sending event FMLServerStoppedEvent to mod NotEnoughItems
+[00:39:02] [Server thread/TRACE] [NotEnoughItems/NotEnoughItems]: Sent event FMLServerStoppedEvent to mod NotEnoughItems
+[00:39:02] [Server thread/DEBUG] [FML/]: Bar Step: ServerStopped - Not Enough Items took 0.001s
+[00:39:02] [Server thread/TRACE] [DamageIndicatorsMod/DamageIndicatorsMod]: Sending event FMLServerStoppedEvent to mod DamageIndicatorsMod
+[00:39:02] [Server thread/TRACE] [DamageIndicatorsMod/DamageIndicatorsMod]: Sent event FMLServerStoppedEvent to mod DamageIndicatorsMod
+[00:39:02] [Server thread/DEBUG] [FML/]: Bar Step: ServerStopped - Damage Indicators took 0.000s
+[00:39:02] [Server thread/TRACE] [AppleCore/AppleCore]: Sending event FMLServerStoppedEvent to mod AppleCore
+[00:39:02] [Server thread/TRACE] [AppleCore/AppleCore]: Sent event FMLServerStoppedEvent to mod AppleCore
+[00:39:02] [Server thread/DEBUG] [FML/]: Bar Step: ServerStopped - AppleCore took 0.000s
+[00:39:02] [Server thread/TRACE] [chisel/chisel]: Sending event FMLServerStoppedEvent to mod chisel
+[00:39:02] [Server thread/TRACE] [chisel/chisel]: Sent event FMLServerStoppedEvent to mod chisel
+[00:39:02] [Server thread/DEBUG] [FML/]: Bar Step: ServerStopped - Chisel took 0.000s
+[00:39:02] [Server thread/TRACE] [cosmeticarmorreworked/cosmeticarmorreworked]: Sending event FMLServerStoppedEvent to mod cosmeticarmorreworked
+[00:39:02] [Server thread/TRACE] [cosmeticarmorreworked/cosmeticarmorreworked]: Sent event FMLServerStoppedEvent to mod cosmeticarmorreworked
+[00:39:02] [Server thread/DEBUG] [FML/]: Bar Step: ServerStopped - CosmeticArmorReworked took 0.000s
+[00:39:02] [Server thread/TRACE] [MineTweaker3/MineTweaker3]: Sending event FMLServerStoppedEvent to mod MineTweaker3
+[00:39:02] [Server thread/TRACE] [MineTweaker3/MineTweaker3]: Sent event FMLServerStoppedEvent to mod MineTweaker3
+[00:39:02] [Server thread/DEBUG] [FML/]: Bar Step: ServerStopped - MineTweaker 3 took 0.001s
+[00:39:02] [Server thread/TRACE] [customnpcs/customnpcs]: Sending event FMLServerStoppedEvent to mod customnpcs
+[00:39:02] [Server thread/TRACE] [customnpcs/customnpcs]: Sent event FMLServerStoppedEvent to mod customnpcs
+[00:39:02] [Server thread/DEBUG] [FML/]: Bar Step: ServerStopped - CustomNpcs took 0.004s
+[00:39:02] [Server thread/TRACE] [defaultkeys/defaultkeys]: Sending event FMLServerStoppedEvent to mod defaultkeys
+[00:39:02] [Server thread/TRACE] [defaultkeys/defaultkeys]: Sent event FMLServerStoppedEvent to mod defaultkeys
+[00:39:02] [Server thread/DEBUG] [FML/]: Bar Step: ServerStopped - Default Keyconfig took 0.000s
+[00:39:02] [Server thread/TRACE] [jinryuujrmcore/jinryuujrmcore]: Sending event FMLServerStoppedEvent to mod jinryuujrmcore
+[00:39:02] [Server thread/TRACE] [jinryuujrmcore/jinryuujrmcore]: Sent event FMLServerStoppedEvent to mod jinryuujrmcore
+[00:39:02] [Server thread/DEBUG] [FML/]: Bar Step: ServerStopped - JinRyuu's JRMCore took 0.000s
+[00:39:02] [Server thread/TRACE] [jinryuudragonblockc/jinryuudragonblockc]: Sending event FMLServerStoppedEvent to mod jinryuudragonblockc
+[00:39:02] [Server thread/TRACE] [jinryuudragonblockc/jinryuudragonblockc]: Sent event FMLServerStoppedEvent to mod jinryuudragonblockc
+[00:39:02] [Server thread/DEBUG] [FML/]: Bar Step: ServerStopped - Dragon Block C took 0.000s
+[00:39:02] [Server thread/TRACE] [FoodExpansion/FoodExpansion]: Sending event FMLServerStoppedEvent to mod FoodExpansion
+[00:39:02] [Server thread/TRACE] [FoodExpansion/FoodExpansion]: Sent event FMLServerStoppedEvent to mod FoodExpansion
+[00:39:02] [Server thread/DEBUG] [FML/]: Bar Step: ServerStopped - Food Expansion took 0.000s
+[00:39:02] [Server thread/TRACE] [IronChest/IronChest]: Sending event FMLServerStoppedEvent to mod IronChest
+[00:39:02] [Server thread/TRACE] [IronChest/IronChest]: Sent event FMLServerStoppedEvent to mod IronChest
+[00:39:02] [Server thread/DEBUG] [FML/]: Bar Step: ServerStopped - Iron Chest took 0.000s
+[00:39:02] [Server thread/TRACE] [jinryuubetterrenderaddon/jinryuubetterrenderaddon]: Sending event FMLServerStoppedEvent to mod jinryuubetterrenderaddon
+[00:39:02] [Server thread/TRACE] [jinryuubetterrenderaddon/jinryuubetterrenderaddon]: Sent event FMLServerStoppedEvent to mod jinryuubetterrenderaddon
+[00:39:02] [Server thread/DEBUG] [FML/]: Bar Step: ServerStopped - JinRyuu's Better Render Addon took 0.000s
+[00:39:02] [Server thread/TRACE] [jinryuufamilyc/jinryuufamilyc]: Sending event FMLServerStoppedEvent to mod jinryuufamilyc
+[00:39:02] [Server thread/TRACE] [jinryuufamilyc/jinryuufamilyc]: Sent event FMLServerStoppedEvent to mod jinryuufamilyc
+[00:39:02] [Server thread/DEBUG] [FML/]: Bar Step: ServerStopped - JinRyuu's Family C took 0.000s
+[00:39:02] [Server thread/TRACE] [jinryuuhdskinsextended/jinryuuhdskinsextended]: Sending event FMLServerStoppedEvent to mod jinryuuhdskinsextended
+[00:39:02] [Server thread/TRACE] [jinryuuhdskinsextended/jinryuuhdskinsextended]: Sent event FMLServerStoppedEvent to mod jinryuuhdskinsextended
+[00:39:02] [Server thread/DEBUG] [FML/]: Bar Step: ServerStopped - JinRyuu's HD Skins Extended took 0.000s
+[00:39:02] [Server thread/TRACE] [journeymap/journeymap]: Sending event FMLServerStoppedEvent to mod journeymap
+[00:39:02] [Server thread/TRACE] [journeymap/journeymap]: Sent event FMLServerStoppedEvent to mod journeymap
+[00:39:02] [Server thread/DEBUG] [FML/]: Bar Step: ServerStopped - JourneyMap took 0.000s
+[00:39:02] [Server thread/TRACE] [jinryuuyearsc/jinryuuyearsc]: Sending event FMLServerStoppedEvent to mod jinryuuyearsc
+[00:39:02] [Server thread/TRACE] [jinryuuyearsc/jinryuuyearsc]: Sent event FMLServerStoppedEvent to mod jinryuuyearsc
+[00:39:02] [Server thread/DEBUG] [FML/]: Bar Step: ServerStopped - JinRyuu's Years C took 0.000s
+[00:39:02] [Server thread/TRACE] [kleeslabs/kleeslabs]: Sending event FMLServerStoppedEvent to mod kleeslabs
+[00:39:02] [Server thread/TRACE] [kleeslabs/kleeslabs]: Sent event FMLServerStoppedEvent to mod kleeslabs
+[00:39:02] [Server thread/DEBUG] [FML/]: Bar Step: ServerStopped - KleeSlabs took 0.000s
+[00:39:02] [Server thread/TRACE] [modtweaker2/modtweaker2]: Sending event FMLServerStoppedEvent to mod modtweaker2
+[00:39:02] [Server thread/TRACE] [modtweaker2/modtweaker2]: Sent event FMLServerStoppedEvent to mod modtweaker2
+[00:39:02] [Server thread/DEBUG] [FML/]: Bar Step: ServerStopped - Mod Tweaker 2 took 0.000s
+[00:39:02] [Server thread/TRACE] [Morpheus/Morpheus]: Sending event FMLServerStoppedEvent to mod Morpheus
+[00:39:02] [Server thread/TRACE] [Morpheus/Morpheus]: Sent event FMLServerStoppedEvent to mod Morpheus
+[00:39:02] [Server thread/DEBUG] [FML/]: Bar Step: ServerStopped - Morpheus took 0.000s
+[00:39:02] [Server thread/TRACE] [MouseTweaks/MouseTweaks]: Sending event FMLServerStoppedEvent to mod MouseTweaks
+[00:39:02] [Server thread/TRACE] [MouseTweaks/MouseTweaks]: Sent event FMLServerStoppedEvent to mod MouseTweaks
+[00:39:02] [Server thread/DEBUG] [FML/]: Bar Step: ServerStopped - Mouse Tweaks took 0.000s
+[00:39:02] [Server thread/TRACE] [oreexcavation/oreexcavation]: Sending event FMLServerStoppedEvent to mod oreexcavation
+[00:39:02] [Server thread/TRACE] [oreexcavation/oreexcavation]: Sent event FMLServerStoppedEvent to mod oreexcavation
+[00:39:02] [Server thread/DEBUG] [FML/]: Bar Step: ServerStopped - OreExcavation took 0.000s
+[00:39:02] [Server thread/TRACE] [ResourceLoader/ResourceLoader]: Sending event FMLServerStoppedEvent to mod ResourceLoader
+[00:39:02] [Server thread/TRACE] [ResourceLoader/ResourceLoader]: Sent event FMLServerStoppedEvent to mod ResourceLoader
+[00:39:02] [Server thread/DEBUG] [FML/]: Bar Step: ServerStopped - Resource Loader took 0.000s
+[00:39:02] [Server thread/TRACE] [jinryuusaoc/jinryuusaoc]: Sending event FMLServerStoppedEvent to mod jinryuusaoc
+[00:39:02] [Server thread/TRACE] [jinryuusaoc/jinryuusaoc]: Sent event FMLServerStoppedEvent to mod jinryuusaoc
+[00:39:02] [Server thread/DEBUG] [FML/]: Bar Step: ServerStopped - Sword Art Online C took 0.000s
+[00:39:02] [Server thread/DEBUG] [FML/]: Bar Finished: ServerStopped took 0.013s
+[00:39:02] [Server thread/INFO] [FML/]: The state engine was in incorrect state ERRORED and forced into state SERVER_STOPPED. Errors may have been discarded.
+[00:39:02] [Server thread/INFO] [FML/]: The state engine was in incorrect state ERRORED and forced into state AVAILABLE. Errors may have been discarded.

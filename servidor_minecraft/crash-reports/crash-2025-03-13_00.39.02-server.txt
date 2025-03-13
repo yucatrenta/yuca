@@ -1,0 +1,110 @@
+---- Minecraft Crash Report ----
+// Surprise! Haha. Well, this is awkward.
+
+Time: 3/13/25 12:39 AM
+Description: Exception in server tick loop
+
+cpw.mods.fml.common.LoaderException: java.lang.NoClassDefFoundError: Llumien/resourceloader/loader/NormalResourceLoader;
+	at cpw.mods.fml.common.LoadController.transition(LoadController.java:163)
+	at cpw.mods.fml.common.Loader.loadMods(Loader.java:544)
+	at cpw.mods.fml.server.FMLServerHandler.beginServerLoading(FMLServerHandler.java:87)
+	at cpw.mods.fml.common.FMLCommonHandler.onServerStart(FMLCommonHandler.java:314)
+	at net.minecraft.server.dedicated.DedicatedServer.func_71197_b(DedicatedServer.java:117)
+	at net.minecraft.server.MinecraftServer.run(MinecraftServer.java:387)
+	at net.minecraft.server.MinecraftServer$2.run(MinecraftServer.java:685)
+Caused by: java.lang.NoClassDefFoundError: Llumien/resourceloader/loader/NormalResourceLoader;
+	at java.lang.Class.getDeclaredFields0(Native Method)
+	at java.lang.Class.privateGetDeclaredFields(Class.java:2583)
+	at java.lang.Class.getDeclaredField(Class.java:2068)
+	at cpw.mods.fml.common.FMLModContainer.parseSimpleFieldAnnotation(FMLModContainer.java:404)
+	at cpw.mods.fml.common.FMLModContainer.processFieldAnnotations(FMLModContainer.java:358)
+	at cpw.mods.fml.common.FMLModContainer.constructMod(FMLModContainer.java:513)
+	at sun.reflect.GeneratedMethodAccessor4.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at com.google.common.eventbus.EventSubscriber.handleEvent(EventSubscriber.java:74)
+	at com.google.common.eventbus.SynchronizedEventSubscriber.handleEvent(SynchronizedEventSubscriber.java:47)
+	at com.google.common.eventbus.EventBus.dispatch(EventBus.java:322)
+	at com.google.common.eventbus.EventBus.dispatchQueuedEvents(EventBus.java:304)
+	at com.google.common.eventbus.EventBus.post(EventBus.java:275)
+	at cpw.mods.fml.common.LoadController.sendEventToModContainer(LoadController.java:212)
+	at cpw.mods.fml.common.LoadController.propogateStateMessage(LoadController.java:190)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at com.google.common.eventbus.EventSubscriber.handleEvent(EventSubscriber.java:74)
+	at com.google.common.eventbus.SynchronizedEventSubscriber.handleEvent(SynchronizedEventSubscriber.java:47)
+	at com.google.common.eventbus.EventBus.dispatch(EventBus.java:322)
+	at com.google.common.eventbus.EventBus.dispatchQueuedEvents(EventBus.java:304)
+	at com.google.common.eventbus.EventBus.post(EventBus.java:275)
+	at cpw.mods.fml.common.LoadController.distributeStateMessage(LoadController.java:119)
+	at cpw.mods.fml.common.Loader.loadMods(Loader.java:513)
+	... 5 more
+Caused by: java.lang.ClassNotFoundException: lumien.resourceloader.loader.NormalResourceLoader
+	at net.minecraft.launchwrapper.LaunchClassLoader.findClass(LaunchClassLoader.java:191)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:418)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:351)
+	... 32 more
+Caused by: java.lang.NoClassDefFoundError: net/minecraft/client/resources/IResourcePack
+	at java.lang.ClassLoader.defineClass1(Native Method)
+	at java.lang.ClassLoader.defineClass(ClassLoader.java:756)
+	at java.security.SecureClassLoader.defineClass(SecureClassLoader.java:142)
+	at net.minecraft.launchwrapper.LaunchClassLoader.findClass(LaunchClassLoader.java:182)
+	... 34 more
+Caused by: java.lang.ClassNotFoundException: net.minecraft.client.resources.IResourcePack
+	at net.minecraft.launchwrapper.LaunchClassLoader.findClass(LaunchClassLoader.java:191)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:418)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:351)
+	... 38 more
+Caused by: java.lang.NullPointerException
+	at net.minecraft.launchwrapper.LaunchClassLoader.findClass(LaunchClassLoader.java:182)
+	... 40 more
+
+
+A detailed walkthrough of the error, its code path and all known details is as follows:
+---------------------------------------------------------------------------------------
+
+-- System Details --
+Details:
+	Minecraft Version: 1.7.10
+	Operating System: Linux (amd64) version 6.8.0-1021-azure
+	Java Version: 1.8.0_442, Private Build
+	Java VM Version: OpenJDK 64-Bit Server VM (mixed mode), Private Build
+	Memory: 2321283568 bytes (2213 MB) / 2411200512 bytes (2299 MB) up to 11453595648 bytes (10923 MB)
+	JVM Flags: 2 total; -Xms2G -Xmx12G
+	AABB Pool Size: 0 (0 bytes; 0 MB) allocated, 0 (0 bytes; 0 MB) used
+	IntCache: cache: 0, tcache: 0, allocated: 0, tallocated: 0
+	FML: MCP v9.05 FML v7.10.99.99 Minecraft Forge 10.13.4.1614 28 mods loaded, 28 mods active
+	States: 'U' = Unloaded 'L' = Loaded 'C' = Constructed 'H' = Pre-initialized 'I' = Initialized 'J' = Post-initialized 'A' = Available 'D' = Disabled 'E' = Errored
+	UC	mcp{9.05} [Minecraft Coder Pack] (minecraft.jar) 
+	UC	FML{7.10.99.99} [Forge Mod Loader] (forge-1.7.10-10.13.4.1614-1.7.10-universal.jar) 
+	UC	Forge{10.13.4.1614} [Minecraft Forge] (forge-1.7.10-10.13.4.1614-1.7.10-universal.jar) 
+	UC	CodeChickenCore{1.0.7.47} [CodeChicken Core] (minecraft.jar) 
+	UC	NotEnoughItems{1.0.5.120} [Not Enough Items] (NotEnoughItems-1.7.10-1.0.5.120-universal.jar) 
+	UC	DamageIndicatorsMod{3.3.2} [Damage Indicators] ([1.7.10]DamageIndicatorsMod-3.3.2.jar) 
+	UC	AppleCore{3.1.1} [AppleCore] (AppleCore-mc1.7.10-3.1.1.jar) 
+	UC	chisel{2.9.5.11} [Chisel] (Chisel-2.9.5.11.jar) 
+	UC	cosmeticarmorreworked{1.7.10-v6b} [CosmeticArmorReworked] (CosmeticArmorReworked-1.7.10-v6b.jar) 
+	UC	MineTweaker3{3.1.0} [MineTweaker 3] (CraftTweaker-1.7.10-3.1.0-legacy.jar) 
+	UC	customnpcs{1.7.10d} [CustomNpcs] (CustomNPCs_1.7.10d(29oct17).jar) 
+	UC	defaultkeys{1.0.28} [Default Keyconfig] (defaultkeys-mc1.7.10-1.0.28.jar) 
+	UC	jinryuujrmcore{1.3.30} [JinRyuu's JRMCore] (JRMCore-v1.3.30.jar) 
+	UC	jinryuudragonblockc{1.4.70} [Dragon Block C] (DragonBlockC-v1.4.70.jar) 
+	UC	FoodExpansion{1.0} [Food Expansion] (FoodExpansion1.1.1-mc1.7.10.jar) 
+	UC	IronChest{6.0.62.742} [Iron Chest] (ironchest-1.7.10-6.0.62.742-universal.jar) 
+	UC	jinryuubetterrenderaddon{1.6.43} [JinRyuu's Better Render Addon] (JBRA-Client-v1.6.43.jar) 
+	UC	jinryuufamilyc{1.2.17} [JinRyuu's Family C] (JFamilyC-v1.2.17.jar) 
+	UC	jinryuuhdskinsextended{1.3.1} [JinRyuu's HD Skins Extended] (JinRyuu's-HDSkins-Mod-1.7.10-v1.3.1.jar) 
+	UC	journeymap{5.1.4p2} [JourneyMap] (journeymap-1.7.10-5.1.4p2-unlimited.jar) 
+	UC	jinryuuyearsc{1.2.5} [JinRyuu's Years C] (JYearsC-v1.2.5.jar) 
+	UC	kleeslabs{1.0} [KleeSlabs] (kleeslabs-mc1.7.10-1.2.9.jar) 
+	UC	modtweaker2{0.9.6} [Mod Tweaker 2] (ModTweaker2-0.9.6.jar) 
+	UC	Morpheus{1.7.10-1.6.21} [Morpheus] (Morpheus-1.7.10-1.6.21.jar) 
+	UC	MouseTweaks{2.4.4} [Mouse Tweaks] (MouseTweaks-2.4.4-mc1.7.10.jar) 
+	UC	oreexcavation{1.1.134} [OreExcavation] (OreExcavation-1.1.134.jar) 
+	UE	ResourceLoader{1.3} [Resource Loader] (ResourceLoader-MC1.7.10-1.3.jar) 
+	UC	jinryuusaoc{0.0.5} [Sword Art Online C] (SwordArtOnlineC-v0.0.5.jar) 
+	Profiler Position: N/A (disabled)
+	Is Modded: Definitely; Server brand changed to 'fml,forge'
+	Type: Dedicated Server (map_server.txt)
